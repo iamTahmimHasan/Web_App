@@ -65,6 +65,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
                 os.path.join(BASE_DIR, 'frontend/templates'),
+                os.path.join(BASE_DIR, 'userregistration/templates'),
                 os.path.join(BASE_DIR, 'admission/templates') 
                 ],
         'APP_DIRS': True,
@@ -130,3 +131,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS =[
+    os.path.join(BASE_DIR,'userregistration/static')
+]
+STATIC_ROOT = os.path.join(BASE_DIR,'assets')
