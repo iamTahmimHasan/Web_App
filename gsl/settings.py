@@ -66,6 +66,7 @@ TEMPLATES = [
         'DIRS': [
                 os.path.join(BASE_DIR, 'frontend/templates'),
                 os.path.join(BASE_DIR, 'userregistration/templates'),
+                os.path.join(BASE_DIR, 'study/templates'),
                 os.path.join(BASE_DIR, 'admission/templates') 
                 ],
         'APP_DIRS': True,
@@ -132,6 +133,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS =[
-    os.path.join(BASE_DIR,'userregistration/static')
+    os.path.join(BASE_DIR,'userregistration/static'),
+    os.path.join(BASE_DIR,'study/static')
 ]
 STATIC_ROOT = os.path.join(BASE_DIR,'assets')

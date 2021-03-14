@@ -1,0 +1,36 @@
+.middle_view_company_wrapper_section{
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #ffffff;
+    box-shadow: 0 0 2px #cccccc;
+    -webkit-box-shadow: 0 0 2px #cccccc;
+    -moz-box-shadow: 0 0 2px #cccccc;
+    -ms-box-shadow: 0 0 2px #cccccc;
+    -o-box-shadow: 0 0 2px #cccccc;
+    border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -moz-border-radius: 3px 3px 0px 0px;
+    -ms-border-radius: 3px 3px 0px 0px;
+    -o-border-radius: 3px 3px 0px 0px;
+}
+
+.org_view_header_section{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.org_view_header_section h2{
+    background: #d0ecfb;
+    padding: 10px 0px 10px 10px;
+    color: #616161;
+    border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -moz-border-radius: 3px 3px 0px 0px;
+    -ms-border-radius: 3px 3px 0px 0px;
+    -o-border-radius: 3px 3px 0px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}

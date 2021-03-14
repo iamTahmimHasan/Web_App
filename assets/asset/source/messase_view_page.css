@@ -1,0 +1,30 @@
+.message_view_wrapper_section{
+  width: 100%;height: auto;
+  float: left;
+  padding: 20px 0px;
+}
+.message_body_wrapper_section{
+  padding: 10px 0px 0px 0px;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.view_message_header{
+    width:100%;
+    height: auto;
+    float: left;
+}
+.view_message_header h2{
+  background: #d0ecfb;
+  padding: 10px 0px 10px 10px;
+  color: #616161;
+  border-radius: 3px 3px 0px 0px;
+  -webkit-border-radius: 3px 3px 0px 0px;
+  -moz-border-radius: 3px 3px 0px 0px;
+  -ms-border-radius: 3px 3px 0px 0px;
+  -o-border-radius: 3px 3px 0px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}

@@ -1,0 +1,215 @@
+
+/**********************************************
+*
+*
+*
+* All Indian Universities
+*
+*
+*
+***********************************************/
+
+@font-face {
+    font-family: 'SolaimanLipi'; /*a name to be used later*/
+    src: url('../fonts/SolaimanLipi.ttf'); /*URL to font*/
+}
+
+.job_career_wrapper{
+	width:100%;
+	height: auto;
+	background: #EEEEEE;
+}
+
+.job_career_inner_section{
+	width:100%;
+	height: auto;
+	float: left;
+	padding:20px 0px 0px 0px;
+}
+
+.job_career_main_wrapper{
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #ffffff;
+	-webkit-border-radius: 0px 4px 4px 4px;
+	-moz-border-radius: 0px 4px 4px 4px;
+	border-radius: 0px 4px 4px 4px;
+	-ms-border-radius:0px 4px 4px 4px;
+	-o-border-radius:0px 4px 4px 4px;
+	-webkit-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);
+	-moz-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);
+	box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);
+	-ms-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);
+	-o-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);
+	padding:20px;
+}
+
+.job_career_right_wrapper{
+	width:100%;
+	height: auto;
+	float: left;
+}
+.job_career_top_add{
+	width:100%;
+	height: 300px;
+	float: left;
+	border: 1px solid #007AC8;
+	cursor: pointer;
+	margin: 0 0 15px 0px;
+}
+
+
+.job_title{
+	width:100%;
+	height: auto;
+	float: left;
+}
+
+.job_title{
+	width:100%;
+	height: auto;
+	float: left;
+	margin: 0px 0px 10px 0px;
+}
+
+.job_title h2{
+	color: #337ab7;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+.job_vacancy{
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 0 0 10px 0px;
+}
+
+.job_vacancy h2{
+	color: #5C5C5C;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px 0px 5px 0px;
+}
+.job_vacancy p{
+	margin: 0;
+	padding: 0px 0px 0px 20px;
+	line-height: 24px;
+	color: #5c5c5c;
+}
+
+.job_description{
+	width:1000%;
+	height: auto;
+	float: left;
+	padding: 0 0 10px 0px;
+}
+.job_description h2{
+	color: #5C5C5C;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px 0px 5px 0px;
+}
+
+.job_description ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.job_description ul li{ 
+	list-style: square inside;
+	padding: 0 0 0 20px;
+}
+
+.apply_button_section{
+	width: 100%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+.apply_online{
+	width: 55%;
+	height: auto;
+	float: left;
+	margin: 0 45%;
+}
+.apply_online p{
+	width:110px;
+	height:auto;
+	background: #007AC8;
+	text-align: center;
+	padding:10px;
+	margin: 0 0 10px 0px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+}
+.apply_online a{
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.apply_online p:hover{
+	background: #005e99;
+	cursor: pointer;
+}
+
+.apply_online_form{
+	width: 43%;
+	height: auto;
+	float: left;
+	margin: 0 28%;
+}
+.apply_name_section{
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 0 0 10px 0px;
+}
+.job_career_main_wrapper h2{
+	font-size: 18px;
+	padding: 0 0 10px 0px;
+	text-align: center;
+	border-bottom: 2px solid #007AC8;
+	text-transform: uppercase;
+	color: #007AC8;
+	margin: 0 0 20px 0px;
+}
+.apply_name_section p{
+	font-size: 16px;
+	padding: 0 0 5px 0px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color:#007AC8;
+    border-color: #007AC8;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #004f80;
+    border-color: #004f80;
+}
+
+.apply_online_top_add{
+    width: 100%;
+    height: 235px;
+    float: left;
+    border: 1px solid #007AC8;
+    cursor: pointer;
+    margin: 0 0 15px 0px;
+}
+.apply_online_top_add2{
+    width: 100%;
+    height: 235px;
+    float: left;
+    border: 1px solid #007AC8;
+    cursor: pointer;
+    margin: 0 0 0px 0px;
+}

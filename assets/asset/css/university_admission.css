@@ -1,0 +1,28 @@
+
+/**********************************************
+*
+*
+*
+* All Indian Universities
+*
+*
+*
+***********************************************/
+
+@font-face {
+    font-family: 'SolaimanLipi'; /*a name to be used later*/
+    src: url('../fonts/SolaimanLipi.ttf'); /*URL to font*/
+}
+
+.indian_university_heading_section{width:100%;height: auto;float: left;padding: 0 0 2px 0px;}
+.indian_university_heading_section h2{font-size: 40px;font-family: 'SolaimanLipi';color: #017EC9;text-shadow: 0 2px 1px #B26700;text-align:center;}
+.indian_university_heading_section ‍h2 a{color:#00B233;text-decoration: none;}
+
+.stydy_in_europe{width:100%;height: auto;float: left;}
+.stydy_in_europe h2{width:100%;height: auto;float: left;font-size: 20px;text-transform: uppercase;font-weight: bolder;}
+.study_in_europe_body_section{width: 100%;height: auto;float: left;padding: 0px 20px;}
+.study_in_europe_body_section h3{font-size: 20px;text-decoration: underline;font-family: 'Montserratwc',sans-serif;padding: 2px 0px;font-weight: bolder;color:  #00b3b3}
+.study_in_europe_body_section ul li{
+	font-family: 'SolaimanLipi'; /*a name to be used later*/
+    src: url('../fonts/SolaimanLipi.ttf');
+}

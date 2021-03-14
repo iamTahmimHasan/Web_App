@@ -1,0 +1,72 @@
+#country_id_chnges{
+	width:96% !important;
+
+}
+/*.searching_search_middle_section{
+	width:20% !important;
+
+	}
+.searching_search_left_section {
+    width: 20% !important;
+}*/
+
+.td_class{
+font-weight:bold;
+
+
+}
+#btn_search{width:30%;height:auto;float:left;}
+
+#heading_student_gallery{
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:bold;
+}
+.searching_inner_section{
+	padding:1.5% !important;
+	}
+.portfolio-item {
+    margin-bottom:0px;
+	width:50%;
+	height:auto;
+}
+
+
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {border-top: 0;}
+.toppad{margin-top:20px;}
+
+
+
+.gallery_photo_widget{width: 100%; height: auto; float: left; border: 1px solid #bce8f1;padding: 2px;}
+.gallery_photo_widget img{width: 300px;height:100px;}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {padding: 8px;line-height: 1.42857143;vertical-align: top;border-top: 0px solid #ddd;width: auto;height: auto;float: left;}
+.gallery_header_widget h2{font-size: 20px;padding: 38px 0px;color:#017DC7;}
+.table {width: 100%;max-width: 100%;margin-bottom: 0px;}
+#organize_id{padding: 0 0 10px 0px;}

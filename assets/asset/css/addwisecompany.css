@@ -1,0 +1,87 @@
+/**********************
+*
+*
+* Add_Wise_Company_Details_Page
+*
+*
+*
+**********************/
+
+p{text-align: justify;padding: 0 0 5px 0px;}
+
+
+.quick_link_widget2 {float: left;height: auto;padding: 5px;width: 100%;background:#4496EA none repeat scroll 0 0;}
+.quick_link_widget2 ul {margin: 0;padding: 0;}
+
+.quick_link_widget2 ul li {list-style: outside none none;float: left;white-space: nowrap;width: 50%;}
+.quick_link_widget2 ul li a {color: #ffffff;font-size: 11px;opacity: 0.8;text-decoration: none;}
+.quick_link2 {border-radius: 4px;color: #ffffff;float: left;height: auto;margin: 0 5px 0 0;opacity: 0.8;padding: 0 2%;width: auto;}
+.quick_link_widget2 h4 {color: #ffffff;font-size: 14px;text-align: center;font-weight: 700;margin: 0px 0px 10px 0px;text-transform: uppercase;}
+
+.quick_link_widget2 ul li {margin-bottom: 0px !important;}
+
+.addwise_company_details_page{
+
+ background: #fff none repeat scroll 0 0;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);
+    padding:10px;width: 100%;height: auto;
+float: left;
+
+    margin:20px 0px 20px 0px;
+
+}
+.logo2{background: #669999;height: 115px;text-align: center;}
+.org_webbanner{background: #4496EA;}
+.organization_banner_wrapper_section{width:98%;height:100px;float: left;background: #4496EA;margin:0 0 2px 0px;}
+.organizational_latest_widget{background: #01AECC;width: 100%;height: 100%;float: left;    padding: 5px 0px 5px 10px;}
+.organizational_latest_widget h2{text-align: center;color: #ffffff;font-size:20px;padding: 38px 0px 38px 0px;}
+.titleorgin2{text-align: center;color: #ffffff;font-size:30px;padding: 32px 0px 32px 0px;}
+.logo2 img{width:160px;height:115px;padding: 5px;}
+.organization_banner_content_section{width: 100%;height: auto;float: left;border: 0px solid #4496EA;padding: 0px;}
+.organization_banner_content_section2{width: 100%;height: auto;float: left;border: 4px solid #4496EA;padding: 10px;}
+.thumbnail {display: block;padding: 2px;margin: 0px 10px 10px 0px;line-height: 1.42857143;background-color: #fff;border: 1px solid #ddd;border-radius: 4px;-webkit-transition: border .2s ease-in-out;-o-transition: border .2s ease-in-out;transition: border .2s ease-in-out;}
+
+.thumbnail2{display: block;padding: 2px;margin: 0px 0px 10px 0px;line-height: 1.42857143;background-color: #fff;border: 1px solid #ddd;border-radius: 4px;-webkit-transition: border .2s ease-in-out;-o-transition: border .2s ease-in-out;transition: border .2s ease-in-out;}
+
+.uniCol3 p{text-align: justify;padding: 0 0 10px 0px;font-family: 'Montserratwc',sans-serif;color: #424242;}
+.listedBlock2 h2{color: #2F64A3;font-weight: 700;font-family: 'Montserratwc',sans-serif;padding: 0 0 10px 0px;font-size:16px;}
+.listedBlock2 p{text-align: justify;padding: 0 0 10px 0px;font-family: 'Montserratwc',sans-serif;color: #424242;}
+.searching_banner_section{width: 100%;height: auto;float: left;background:#4496EA;padding: 5px 10px 5px 10px;margin:0 0 10px 0px;}
+.btn {display: inline-block;padding: 9px 12px;margin-bottom: 0;font-size: 15px;font-weight: 400;line-height: 1.42857143;
+text-align: center;white-space: nowrap;vertical-align: middle;-ms-touch-action: manipulation;touch-action: manipulation;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;background-image: none;border: 1px solid transparent;border-radius: 4px;}
+.previous_advertisement_section p{text-align: center;color:#ffffff;padding: 4px 0px 4px 0px;font-size: 20px;}
+#previous_advertisement_picture_section{width:100%;height: 100%;}
+#previous_advertisement_picture_section img{width:100%;height:80px;padding: 5px;}
+
+
+#previous_advertisement_vedio_section{width:100%;height: 100%;}
+#previous_advertisement_vedio_section img{width:100px;height: 80px;padding: 5px;}
+.organization_banner_content_inner_section{padding: 0px 0px 20px 0px;width: 100%;overflow: hidden;}
+.apply_for_admission{position:fixed;top:500px;right: 0px;z-index: 999999;}
+
+.table {width: 100%;max-width: 100%;margin-bottom: 0px;}
+.youtube_vedio_section{width: 100%;height: auto;float: left;}
+.checkbox_wrapper_section{width: 50%;height: auto;float:right;padding: 0 0 10px 0px;}
+.checkbox_wrapper_section input{width:30px;}
+button#share_button{width: 95px;height: auto;float: right;background:#3B5998;margin: 0px;padding: 2px;border: none;box-shadow: 0px 1px 2px #000;color: #ffffff;}
+
+.organizational_latest_widget ul li a{font-size: 11px;padding: 0%;text-decoration: none;}
+.organizational_latest_widget ul li{width: 33%;height: auto;float: left;}
+
+.popover-content {padding: 9px 14px;width: 276px;}
+
+.facebook-share{width:80px;height: auto;float: left;background:#4862A3;color:#ffffff;border-radius: 4px;margin: 0px 5px 0px 0px;transition:.2s;-moz-transition:.2s;-ms-transition:.2s;-o-transition:.5s;-webkit-transition:.2s;}
+.checkbox_wrapper_section a{text-decoration: none;margin: 0px 5px 0px 0px;padding: 0px 0 0 9px;font-size: 12px;float: right;}
+.checkbox_wrapper_section a:hover{color: #ffffff;}
+.linkedin-share{width:80px;height: auto;float: left;background:#006699;color:#ffffff;border-radius: 4px;transition:.2s;-moz-transition:.2s;-ms-transition:.2s;-o-transition:.2s;-webkit-transition:.2s;}
+.google-plus{width:80px;height: auto;float: left;background:#D11718;color:#ffffff;border-radius: 4px;transition:.2s;-moz-transition:.2s;-ms-transition:.2s;-o-transition:.2s;-webkit-transition:.2s;}
+.facebook-share:hover{background:#3e558e;transition:.2s;-moz-transition:.2s;-ms-transition:.2s;-o-transition:.2s;-webkit-transition:.2s;}
+.linkedin-share:hover{background:#00334d;transition:.2s;-moz-transition:.2s;-ms-transition:.2s;-o-transition:.2s;-webkit-transition:.2s;}
+.google-plus:hover{background:#8a0f0f;transition:.2s;-moz-transition:.2s;-ms-transition:.2s;-o-transition:.2s;-webkit-transition:.2s;}
+.twitter-share{width:80px;height: auto;float: left;background:#55ACEE;color:#ffffff;border-radius: 4px;transition:.2s;-moz-transition:.2s;-ms-transition:.2s;-o-transition:.2s;-webkit-transition:.2s;}
+.twitter-share:hover{background:#157fd1;transition:.2s;-moz-transition:.2s;-ms-transition:.2s;-o-transition:.2s;-webkit-transition:.2s;}
+.top_header_section .btn{font-size: 11px;font-family: 'Montserratwc',sans-serif;color: #BDBDBD;font-weight: bolder;}
+
+
+.organization_banner_wrapper_section2{width:98%;height:115px;float: left;background: #4496EA;margin:0 0 2px 0px;}

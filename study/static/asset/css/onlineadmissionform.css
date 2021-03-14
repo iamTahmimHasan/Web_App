@@ -1,0 +1,30 @@
+
+/**********************
+*
+*
+* Org_Web_About_Page
+*
+*
+*
+**********************/
+#other_proficiency,#media_source{
+	width:60% !important;
+	}
+
+.form-control{
+	width:90% !important;
+	}
+
+.organization_banner_content_section{width: 100%;height: auto;float: left;padding: 10px;}
+
+.quick_link_widget2 {float: left;height: auto;padding: 5px;width: 100%;background:#01AECC none repeat scroll 0 0;}
+.quick_link_widget2 ul {margin: 0;padding: 0;}
+
+.quick_link_widget2 ul li {list-style: outside none none;float: left;white-space: nowrap;width: 50%;}
+.quick_link_widget2 ul li a {color: #ffffff;font-size: 11px;opacity: 1;text-decoration: none;}
+.quick_link2 {border-radius: 4px;color: #ffffff;float: left;height: auto;margin: 0 5px 0 0;opacity: 0.8;padding: 0 2%;width: auto;}
+.quick_link_widget2 h4 {color: #ffffff;font-size: 14px;text-align: center;font-weight: 700;margin: 0px 0px 10px 0px;text-transform: uppercase;}
+
+.quick_link_widget2 ul li {margin-bottom: 0px !important;}
+.quick_link_widget2 ul li a:hover{color:#015665;}
+

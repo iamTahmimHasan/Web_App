@@ -1,0 +1,32 @@
+.professional_training_wrapper{width:100%;height: 1000px;background: #43A047;}
+.professional_training_inner_wrapper{width:100%;height: 500px;background:#ffffff;margin:30px 0px 0px 0px;border-radius: 4px; -moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;-webkit-border-radius: 4px;}
+.professional_training_left_section{width:100%;height: 500px;float: left;background: #2d6c30;border-radius: 4px 0px 0px 4px;}
+.professional_training_left_section ul{width:100%;margin: 0px;padding: 0px;}
+.professional_training_left_section ul li{}
+.professional_training_left_section ul li a{width: 150px;
+    height: auto;
+    float: left;
+    color: #ffffff;
+    padding: 10px 15px;text-decoration: none;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+   color: #fff;
+    cursor: default;
+    background-color: #265a28;
+    border: 0px solid #53A857;
+    width: 262px;
+    border-radius: 4px 0px 0px 0px;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: none;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 0px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs {
+    border-bottom: 0px solid #53A857;
+}

@@ -1,0 +1,16 @@
+.add_contact_wrapper{width:60%;height: auto;margin: 0 auto;box-shadow: 0 0 3px #8c8c8c;}
+th.address_left{background: #f2f2f2;-moz-background: #f2f2f2;-ms-background: #f2f2f2;-o-background: #f2f2f2;-webkit-background: #f2f2f2;}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+}
+
+.pagination>li.active>a, .pagination>li.active>a:hover {
+    background-color: #6faed9;
+    border-color: #6faed9;
+    color: #000;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    z-index: 2;
+}
