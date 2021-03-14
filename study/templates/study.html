@@ -1,3 +1,6 @@
+{% load static %}
+
+
 <DOCTYPE html>
   <html lang="en">
   <head>
@@ -16,29 +19,29 @@
 
     <!-- Bootstrap -->
 
-    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
-    <link href="asset/css/font-awesome.min.css" rel="stylesheet">
-    <link href="asset/css/custom.css" rel="stylesheet">
-    <link href="asset/css/university_admission.css" rel="stylesheet">
-    <link href="asset/css/responsive.css" rel="stylesheet">
+    <link href="{% static 'asset/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'asset/css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{% static 'asset/css/custom.css" rel="stylesheet' %}">
+    <link href="{% static 'asset/css/university_admission.css' %}" rel="stylesheet">
+    <link href="{% static 'asset/css/responsive.css" rel="stylesheet' %}">
 
     <!-- Top_Side_Slider_CSS -->
 
-    <link rel="stylesheet" type="text/css" href="asset/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="{% static 'asset/css/style.css'%}" />
 
-    <script type="text/javascript" src="asset/js/jquery.min.js"></script>
-    <script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="asset/js/ajax_function.js"></script>
-    <script type="text/javascript" src="asset/js/ajax.js"></script>
-    <script type="text/javascript" src="asset/source/text_scroll.js"></script>
-    <script type="text/javascript" src="asset/js/jquery.fittext.js"></script>
-    <script type="text/javascript" src="asset/js/jquery.lettering.js"></script>
-    <script type="text/javascript" src="asset/js/jquery.textillate.js"></script>
-    <script type="text/javascript" src="asset/js/ajaxupload.3.5.js"></script>
+    <script type="text/javascript" src="{% static 'asset/js/jquery.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'asset/js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'asset/js/ajax_function.js' %}"></script>
+    <script type="text/javascript" src="{% static 'asset/js/ajax.js' %}"></script>
+    <script type="text/javascript" src="{% static 'asset/source/text_scroll.js' %}"></script>
+    <script type="text/javascript" src="{% static 'asset/js/jquery.fittext.js' %}"></script>
+    <script type="text/javascript" src="{% static 'asset/js/jquery.lettering.js' %}"></script>
+    <script type="text/javascript" src="{% static 'asset/js/jquery.textillate.js' %}"></script>
+    <script type="text/javascript" src="{% static 'asset/js/ajaxupload.3.5.js' %}"></script>
     <!-- Counterup_JS -->
-    <script type="text/javascript" src="asset/js/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="{% static 'asset/js/jquery.counterup.min.js' %}"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <script type="text/javascript" src="asset/js/waypoints.min.js"></script>
+    <script type="text/javascript" src="{% static 'asset/js/waypoints.min.js' %}"></script>
 
   </head>
   <body>
@@ -121,7 +124,7 @@
           <div class="menu_inner_section">
             <div class="col-md-4 col-sm-3 hidden-xs col-lg-4">
               <div class="menu_image_section"> 
-                <a href="http://www.globalstar.com.bd/"><img src="asset/image/GSL_Logo.png" width="105" height="60"/> </a> 
+                <a href="http://www.globalstar.com.bd/"><img src="{% static 'asset/image/GSL_Logo.png'%}" width="105" height="60"/> </a> 
               </div>
             </div>
             <div class="col-md-8 col-sm-9  col-xs-12 col-lg-8">
@@ -143,7 +146,7 @@
 
     <!--End_Menu_Wrapper_Section-->
 
-    <div class="slider_wrapper_section" style="background-image:url(asset/image/nextadmission_slider.jpg)">
+    <div class="slider_wrapper_section" style="background-image:url({% static 'asset/image/nextadmission_slider.jpg'%})">
       <!--slider_Wrapper_Section-->
       <div class="container">
         <div class="row">
@@ -396,7 +399,7 @@
                     </a>
                   </div>
                 </div>
-                <h2><a href=""> <img  src="asset/image/add4.jpg"> </a></h2>
+                <h2><a href=""> <img  src="{% static 'asset/image/add4.jpg'%}"> </a></h2>
               </div>
               <div class="special_job_wrapper_section">
                 <h4><i class="fa fa-briefcase" aria-hidden="true"></i> Tuition Waiver</h4>
@@ -705,7 +708,7 @@
 
 
   
-  <script type="text/javascript" src="asset/js/wowslider.js"></script>
+  <script type="text/javascript" src="{% static 'asset/js/wowslider.js' %} "></script>
   
 
 </body>
