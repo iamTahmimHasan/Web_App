@@ -167,10 +167,12 @@
                             <div class="form-control" placeholder="Organized Type" aria-describedby="basic-addon1">
                             </div>
                             <option value="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select Country</option>
+                            <option value="India">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; India</option>
                           </select>
                         </div>
                       </div>
-                      <form id="searchForm" action="" method="post" enctype="multipart/form-data">
+                      
+                      <form id="searchForm" action="" method="post" enctype="multipart/form-data"> {% csrf_token %}
                         <div class="home_searching_search_left_section">
                           <div class="inner-addon keyword-search"> <i class="fa fa-tag" aria-hidden="true"></i>
                             <input type="text" name="search_all" id="search_all" class="form-control" placeholder="Search by keyword" aria-describedby="basic-addon1">
@@ -199,7 +201,7 @@
                               <a href="" class="link_design">UK</a>
                               <a href="" class="link_design">Canada</a>
                               <a href="" class="link_design">Malaysia</a>
-                              <a href="" class="link_design">USA (20)</a>
+                              <a href="" class="link_design">USA</a>
                               <a href="" class="link_design">Bangladesh</a>
                             </div>
                           </div>
@@ -351,7 +353,7 @@
               <div class="browse_category_top_header_widget">
                 <div class="browse_category_top_left_section">
                   <div class="categorytitle">
-                    <span>&nbsp;KG-10 class-Diploma-Bachelors-Masters-Phd</span>
+                    <span>&nbsp;Choice Field of Study/Subject</span>
                   </div>
                   <div class="row">
                     <div class="col-md-4">
