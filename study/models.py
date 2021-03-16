@@ -9,9 +9,9 @@ from django.db import models
     #price = models.IntegerField()
     #offer = models.BooleanField(default=False)
  
-class university (models.Model):
-        university_logo= models.ImageField(upload_to='pics')
-        university_name = models.CharField(max_length=100)
-        university_rank = models.CharField(max_length=100)
-        university_country=  models.CharField(max_length=100)
+class University (models.Model):
+        university_logo = models.ImageField(upload_to='pics')
+        university_name = models.CharField(max_length=255)
+        university_rank = models.CharField(max_length=50)
+        university_country = models.CharField(max_length=100)
     
