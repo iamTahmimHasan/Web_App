@@ -7,7 +7,8 @@ class UniversityAdmin(admin.ModelAdmin):
     fieldsets = (
         ("Top University", {
             "fields" :( 
-                'university_logo', 'university_name', 'university_rank', 'university_country' 
+                'university_logo', 'university_name', 'university_rank', 'university_country' , 'international_students', 
+                'established_year', 'total_students', 'university_website', 'university_address'
 
             ),
         }),
