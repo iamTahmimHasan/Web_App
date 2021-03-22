@@ -1,14 +1,8 @@
 from django.db import models
 from django_countries.fields import CountryField
 
-# Create your models here.
-#class Destination(models.Model):
-    #name = models.CharField(max_length=100)
-    #img = models.ImageField(upload_to='pics')
-    #desc = models.TextField()
-    #price = models.IntegerField()
-    #offer = models.BooleanField(default=False)
- 
+
+
 class University (models.Model):
 
         ESTABLISHED_YEAR_CHOICES = [(x, str(x)) for x in range(1088, 2021, 1)]
@@ -25,6 +19,8 @@ class University (models.Model):
         university_website= models.CharField(max_length=255, blank=True, null=True, default="https://www", verbose_name="University Website")
         university_address= models.CharField(max_length=255, blank=True, null=True, verbose_name="University Address")
 
+        
+
 
         
 
@@ -35,6 +31,8 @@ class University (models.Model):
         class Meta:
             verbose_name = 'Top University'
             verbose_name_plural = 'Top Universitys'
-    
+            
+
+        
 
     
