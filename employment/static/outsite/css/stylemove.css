@@ -1,0 +1,54 @@
+/* Quovolver Demo Styles */
+
+/*
+ |	All required styles for the effect
+ |	are labeled with this *required*
+*/
+
+
+a { text-decoration: none; color: #52b7d4; }
+a:hover { color: #ea9941; }
+
+#wrapper { width: 475px; margin: 0 auto; }
+#description { margin-bottom: 40px; padding-bottom: 10px; }
+
+#description p { margin-bottom: 10px; }
+
+code { font-family: "Courier New", Courier, Monaco, monospace; background: #f2f2f2; margin-bottom: 20px; display: block; padding: 20px; }	
+blockquote p { margin-bottom: 10px; font-style: italic; }
+blockquote cite { font-style: normal; display: block; text-align: right; text-transform: uppercase; font-size: 10px; font-weight: bold; letter-spacing: 1px; font-family: Arial, Helvetica, sans-serif; }
+/*
+ |	Setting the width for the blockquotes is required
+ |	to accurately adjust it's contianer
+*/
+
+blockquote {
+	font-family: Georgia, Times, serif;
+	width: 250px; /* required */
+	height:auto;
+	margin: 0 auto;
+	font-size:16px;
+	color:#03C;
+	}
+	blockquote1 {
+	font-family: Georgia, Times, serif;
+	width: 350px; /* required */
+	margin: 0 auto;
+	height:auto;
+	font-size:16px;
+	color:#03C;
+	}
+	blockquote1 p { margin-bottom: 10px; font-style: italic; }
+blockquote1 cite { font-style: normal; display: block; text-align: right; text-transform: uppercase; font-size: 10px; font-weight: bold; letter-spacing: 1px; font-family: Arial, Helvetica, sans-serif; }
+
+/*
+ |	The #quote_wrap div is created
+ |	by Quovolver to wrap the quotes
+*/
+
+#quote_wrap { 
+ 
+	
+	margin: 40px 0; padding: 0px; 
+	
+	}
