@@ -32,7 +32,7 @@
         <li><a href="#"><span>Team</span></a></li>
         <li><a href="#"><span>Enquiry</span></a>
 
-         
+         <!-- 
 
           <div class="dd-holder">
             <div class="dd-t"></div>
@@ -60,7 +60,7 @@
           </div>
         </li> 
          <li><a href="trading.html"><span>Trading</span></a></li>
-         <li><a href="#"><span>Our Clientele </span></a></li>
+         <li><a href="#"><span>Our Clientele </span></a></li>-->
         <li><a href="#"><span>Profile</span></a>
           <div class="dd-holder">
             <div class="dd-t"></div>
@@ -98,34 +98,30 @@
   </div>
 </div>
 
-              
 
-
-              
-              
-
-
+ 
 <div id="slider">
   <div class="shell">
     <div class="slider-holder">
       <div class="slider-left">
         <ul>
-		<?php foreach($slideinfo as $v){?>
+          {% for home_slide in home_slides %}
           <li> <br />
             <br />
             <br />
             <br />		
-            	<h6>"<?php echo $v->sltitle;?>"</h6>	
-          </li>     
-		  <?php }?>
+            	<h6>"{{home_slide.slider_title}}"</h6>	
+          </li> 
+          {% endfor %}    
+		  
 		      
         </ul>
       </div>
       <div class="slider-right">
         <ul>
-        <?php foreach($slideinfo as $sv){?>
-		  <li><img src="<?php echo base_url('uploads/company_logo/'.$sv->slideimage);?>" alt="" /></li>  
-		<?php }?>  
+          {% for home_slide in home_slides %}
+		  <li><img src="{{home_slide.slider_image.url}}" alt="{{home_slide.slider_title}}" /></li>  
+      {% endfor %}
 		        
         </ul>
       </div>
@@ -147,13 +143,18 @@
 
   <!-- Footer -->
 <div id="footer">
-  <div class="shell">
-    <p class="right"> <a href="<?php echo site_url('home');?>">Home</a> <span>|</span> <a href="<?php echo site_url('aboutus');?>">About</a> <span>|</span> <a href="<?php echo site_url('team');?>">Team</a> <span>|</span> <a href="<?php  echo site_url('enquiry');?>">Enquiry</a> <span>|</span> 
-      <!--  <a href="trading.html">Trading</a>
-		    <span>|</span> -->
-      <a href="<?php echo site_url('profile');?>">Profile</a> <span>|</span> <a href="<?php echo site_url('gallery');?>">Gallery</a> <span>|</span> <a href="<?php echo site_url('visa');?>">Visa Services</a> <span>|</span> <a href="<?php echo site_url('contact');?>">Contact</a> </p>
-    <div class="cl">&nbsp;</div>
-  </div>
+    <div class="shell">
+      <p class="right"> <a href="#">Home</a> <span>|</span> 
+        <a href="#">About</a> <span>|</span> <a href="#">Team</a> <span>|</span> 
+        <a href="#">Enquiry</a> <span>|</span> 
+        <!--  <a href="trading.html">Trading</a>
+          <span>|</span> -->
+        <a href="#">Profile</a>       <span>|</span> 
+        <a href="#">Gallery</a>       <span>|</span> 
+        <a href="#">Visa Services</a> <span>|</span> 
+        <a href="#">Contact</a> </p>
+      <div class="cl">&nbsp;</div>
+    </div>
 </div>
 <!-- Footer -->
 </body>
