@@ -22,8 +22,10 @@
 <div id="header">
   <div class="shell">
     <div class="logo_style">
+      {% for gsl_logo in gsl_logos %}
         <h1 align="center" style="padding-top:20px;"><a href="http://www.globalstar.com.bd" > 
-          <img alt="" title="" src="" /> </a></h1> <br/>
+          <img alt="" title="" src="{{gsl_logo.company_logo.url}}" /> </a></h1> <br/>
+          {% endfor %} 
     </div>
     <div id="navigation" >
       <ul>
@@ -97,43 +99,6 @@
     <div class="cl">&nbsp;</div>
   </div>
 </div>
-
-
- 
-<div id="slider">
-  <div class="shell">
-    <div class="slider-holder">
-      <div class="slider-left">
-        <ul>
-          {% for home_slide in home_slides %}
-          <li> <br />
-            <br />
-            <br />
-            <br />		
-            	<h6>"{{home_slide.slider_title}}"</h6>	
-          </li> 
-          {% endfor %}    
-		  
-		      
-        </ul>
-      </div>
-      <div class="slider-right">
-        <ul>
-          {% for home_slide in home_slides %}
-		  <li><img src="{{home_slide.slider_image.url}}" alt="{{home_slide.slider_title}}" /></li>  
-      {% endfor %}
-		        
-        </ul>
-      </div>
-      <div class="cl">&nbsp;</div>
-      <div class="slider-nav"> <a href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a>
-        <div class="cl">&nbsp;</div>
-      </div>
-    </div>
-  </div>
-</div>
-  
-
 
   {% block content %}
                 

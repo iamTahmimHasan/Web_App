@@ -5,6 +5,39 @@
 
 
 {% block content %}
+
+<div id="slider">
+    <div class="shell">
+      <div class="slider-holder">
+        <div class="slider-left">
+          <ul>
+            {% for home_slide in home_slides %}
+            <li> <br />
+              <br />
+              <br />
+              <br />		
+                  <h6>"{{home_slide.slider_title}}"</h6>	
+            </li> 
+            {% endfor %}    
+            
+                
+          </ul>
+        </div>
+        <div class="slider-right">
+          <ul>
+            {% for home_slide in home_slides %}
+            <li><img src="{{home_slide.slider_image.url}}" alt="{{home_slide.slider_title}}" /></li>  
+            {% endfor %}
+                  
+          </ul>
+        </div>
+        <div class="cl">&nbsp;</div>
+        <div class="slider-nav"> <a href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a>
+          <div class="cl">&nbsp;</div>
+        </div>
+      </div>
+    </div>
+  </div>
                 
                 
 
@@ -61,157 +94,10 @@
                 
                 <marquee align="left" behavior="scroll" direction="left" scrolldelay="35">
 
-                    <img src="../static/outsite/css/images/slider-image1.jpg" width="200px" height="150" />
+                    {% for entry in entrys %}
 
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/2.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/3.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/4.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/5.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/6.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/7.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/8.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/9.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/10.png');?>" width="200px" height="150" />
-                    
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/11.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/12.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/13.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/14.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/15.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/16.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/17.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/18.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/19.png');?>" width="200px" height="150" />
-                    
-                     <img src="<?php echo base_url('outsite/css/images/Slide_Img/1.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/2.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/3.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/4.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/5.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/6.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/7.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/8.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/9.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/10.png');?>" width="200px" height="150" />
-                    
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/11.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/12.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/13.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/14.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/15.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/16.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/17.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/18.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/19.png');?>" width="200px" height="150" />
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/1.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/2.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/3.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/4.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/5.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/6.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/7.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/8.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/9.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/10.png');?>" width="200px" height="150" />
-                    
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/11.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/12.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/13.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/14.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/15.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/16.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/17.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/18.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/19.png');?>" width="200px" height="150" />
-                    
-                     <img src="<?php echo base_url('outsite/css/images/Slide_Img/1.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/2.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/3.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/4.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/5.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/6.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/7.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/8.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/9.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/10.png');?>" width="200px" height="150" />
-                    
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/11.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/12.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/13.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/14.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/15.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/16.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/17.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/18.png');?>" width="200px" height="150" />
-
-                    <img src="<?php echo base_url('outsite/css/images/Slide_Img/19.png');?>" width="200px" height="150" />
-
+                    <img src="{{entry.client_logo.url}}" width="200px" height="150" />
+                    {% endfor %}
                 </marquee>
                 
             </div>
@@ -219,7 +105,8 @@
         </div>
     
    
-        <-- <div class="our_mission_inner">
+        <!-- <div class="our_mission_inner">
+            <br>
             <h2><strong>Our Vision</strong></h2>
             <p> We are specialized in subcontracting for Europe  ie sending delegates on our payroll who render skilled services. Civil workers are mostly on Europeans payroll.We have  4 associate firms in Bangladesh  , 1 associate company Poland  ,  some offices in Bangladesh  incl own training center in Dhaka and a foreign branches  in Dubai and Lisbon .Our philosophy  is  to attract the best talents available  and highly motivated  candidates  in  quick possible time.We want not only to gain the trust of employers but, above all, not to lose it .As a result synergy between the employee's career excellence ,equally  rewarding remunaration and employers satisfaction is to be created.</p>
             <br />
@@ -228,13 +115,14 @@
     
    
     <div class="our_mission_right_inner">
-            <iframe width="306" height="200" src="outsite/vedio/gsl_visa.mp4" frameborder="0" allowfullscreen></iframe> <br/> <br/>
-            <iframe width="306" height="200" src="outsite/vedio/uni_admission.mp4" frameborder="0" allowfullscreen></iframe> <br/>
-            <!--<h2 align="center" style="color:blue;font-weight:bold;"><strong>Royal Bengal Tiger</strong></h2>
-             <p><a href="#"><img src="<?php //echo base_url('outsite/css/images/a1.jpg');?>" /></a> </p> -->
-            <p><a href="#"><img src="<?php //echo base_url('outsite/css/images/tiger_img.jpg');?>" /></a> </p>
+            <iframe width="306" height="200" src="../static/outsite/vedio/gsl_visa.mp4" frameborder="0" allowfullscreen></iframe> <br/> <br/>
+            <!--<iframe width="306" height="200" src="../static/outsite/vedio/uni_admission.mp4" frameborder="0" allowfullscreen></iframe> <br/>
+            <h2 align="center" style="color:blue;font-weight:bold;"><strong>Royal Bengal Tiger</strong></h2>
+             <p><a href="#"><img src="../static/outsite/css/images/a1.jpg" /></a> </p> -->
+             <br>
+            <p><a href="#"><img src="../static/outsite/css/images/tiger_img.jpg" /></a> </p>
             <br />
-            <p><a href="#"><img src="<?php echo base_url('outsite/css/images/wwf.jpg');?>" /></a> </p>
+            <p><a href="#"><img src="../static/outsite/css/images/wwf.jpg" /></a> </p>
             <br />
             <b style="font-weight: bolder;color:red;line-height:18px;">
               We shan't save all we should like to, but we shall save a great deal more than if we had never tried <span style="color:blue;"> -Sir Peter Scott</span>
@@ -243,7 +131,7 @@
 
             <div class="marquee_right_section">
                  <!-- <h2><strong>Special Speech</strong></h2>
-                 <p><a href="proftrain.html"><img src="<?php //echo base_url('outsite/css/images/iata_logo.jpg');?>" /></a> </p>
+                 <p><a href="proftrain.html"><img src="../static/outsite/css/images/iata_logo.jpg" /></a> </p>
                  <span class="blink_text"><b> Happiness is lack of unhappiness. <br />
                       The wise man is always happy. <br />
                       Without misfortune, you will not understand happiness. <br />
