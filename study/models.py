@@ -6,9 +6,6 @@ from django_countries.fields import CountryField
 class University (models.Model):
 
         ESTABLISHED_YEAR_CHOICES = [(x, str(x)) for x in range(1088, 2021, 1)]
-
-        
-
         university_logo = models.ImageField(upload_to='pics', verbose_name="University Logo")
         university_name = models.CharField(max_length=255, verbose_name="Name")
         university_rank = models.IntegerField(verbose_name="Rank", default="0")
