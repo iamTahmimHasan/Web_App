@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import HomePageSlider, EmploymentClientList, HomePageLeftSide
+from .models import HomePageSlider, EmploymentClientList, HomePageLeftSide, BlockQuote, ManageTeams
 from frontend.models import CompanyDetails
 # Create your views here.
 
@@ -27,4 +27,20 @@ def about(request):
             'gsl_logos' : gsl_logos,
 
     })
+
+def team(request):
+    gsl_logos = CompanyDetails.objects.all()
+    teams = ManageTeams.objects.all()
+    quotes = BlockQuote.objects.all().filter(team_page= 1)
+    return render(request, 'team.html', {
+            'gsl_logos' : gsl_logos,
+            'quotes' : quotes,
+            'teams' : teams,
+
+    })
+
+
+def form(request):
+    return render(request, 'form.html')
     
+  

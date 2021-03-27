@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'phonenumber_field'
     'dal',
     'dal_select2',
     # 'grappelli',
@@ -73,7 +74,8 @@ TEMPLATES = [
                 os.path.join(BASE_DIR, 'userregistration/templates'),
                 os.path.join(BASE_DIR, 'study/templates'),
                 os.path.join(BASE_DIR, 'admission/templates'),
-                os.path.join(BASE_DIR, 'employment/templates') 
+                os.path.join(BASE_DIR, 'employment/templates'), 
+                os.path.join(BASE_DIR, 'form/templates'), 
                 ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -141,7 +143,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS =[
     os.path.join(BASE_DIR,'userregistration/static'),
     os.path.join(BASE_DIR,'study/static'),
-    os.path.join(BASE_DIR,'employment/static')
+    os.path.join(BASE_DIR,'employment/static'),
+    os.path.join(BASE_DIR,'form/static'),
 ]
 STATIC_ROOT = os.path.join(BASE_DIR,'assets')
 MEDIA_URL = '/media/'

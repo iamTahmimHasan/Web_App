@@ -36,6 +36,36 @@ class HomePageLeftSide(models.Model):
         quotes = models.CharField(max_length=150, verbose_name="quotes", blank=True, null=True)
         quotes_writter = models.CharField(max_length=50, verbose_name="quotes_writter", blank=True, null=True)
         
+        
         class Meta:
                 verbose_name = 'Home Page Left Side Media'
                 verbose_name_plural = 'Home Page Side Medias'
+
+
+class BlockQuote(models.Model):
+        quote = models.TextField(max_length=150, verbose_name="Quote", blank=True, null=True)
+        quote_writter = models.CharField(max_length=50, verbose_name="Quote Writter", blank=True, null=True)
+        show_multipul_pages = models.BooleanField(default=False , verbose_name="Show Multipul Pages")
+        home_page = models.BooleanField(default=False , verbose_name="Home Page")
+        about_page = models.BooleanField(default=False , verbose_name="About Page")
+        team_page = models.BooleanField(default=False , verbose_name="Team Page")
+
+        class Meta:
+                verbose_name = 'Block Quote'
+                verbose_name_plural = 'Block Quotes'
+
+
+class ManageTeams(models.Model):
+        name = models.CharField(max_length=250, verbose_name="Name")
+        designation = models.CharField(max_length=150, verbose_name="Designation", blank=True, null=True)
+        department = models.CharField(max_length=150, verbose_name="Department", blank=True, null=True)
+        short_description = models.TextField(max_length=150, verbose_name="Short Description", blank=True, null=True)
+
+
+        class Meta:
+                verbose_name = 'Team Member'
+                verbose_name_plural = 'Team Members'
+
+        def __str__(self):
+                        return self.name
+

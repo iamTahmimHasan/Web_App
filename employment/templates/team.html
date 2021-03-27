@@ -1,0 +1,81 @@
+{% extends "ebase.html" %}
+{% load static %}
+{% static "images" as baseUrl %}
+{% block content %}
+	
+	<script type="text/javascript" src="{% static 'outsite/js/jquery.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'outsite/js/jquery.quovolver.js' %}"></script>
+	
+	<!-- JavaScript Test Zone -->
+	<script type="text/javascript">
+	$(document).ready(function() {
+		
+		$('blockquote').quovolver();
+		
+	});
+	</script>
+    <script type="text/javascript">
+	$(document).ready(function() {
+		
+		$('blockquote1').quovolver1();
+		
+	});
+	</script>
+	
+	
+	<div class="shell" style="border-top:#003366 10px solid;"></div>
+	<div id="main">
+		<div class="shell">
+			<div class="col1">
+				<div id="article">
+
+					{% for quot in quotes %}
+				<blockquote>
+					<p style="color:blue;font-size:16px;">"{{quot.quote}}"</p>
+					<cite style="color:red;font-size:15px;">&ndash;{{quot.quote_writter}}</cite>
+				</blockquote>
+
+				{% endfor %}
+					
+
+				</div><!-- #article -->
+		    </div>
+
+		<div class="col2">
+			<h2 style="text-align:center;color:red;">Team of Management </h2> 
+
+			{% for team in teams %} 
+
+			<strong style="color:black;font-weight:bolder;"><p style="padding: 0 0 5px 0px;">
+				{{team.name}},
+			</strong> {{team.short_description}} </p> 
+			{% endfor %}
+			
+			<div class="cl">&nbsp;</div>
+			
+		</div>
+
+		<div class="col3">
+			<div id="article">
+				{% for quot in quotes %}
+				<blockquote1>
+					<p style="color:blue;font-size:16px;">"{{quot.quote}}"</p>
+					<cite style="color:red;font-size:15px;">&ndash;{{quot.quote_writter}}</cite>
+				</blockquote1>
+
+				{% endfor %}
+	
+				
+		
+			</div><!-- #article -->
+	
+		</div>	
+		
+	
+	    <div class="cl">&nbsp;</div>
+	</div>
+</div>
+
+{% endblock %}
+   
+	

@@ -1,0 +1,1647 @@
+{% load static %}
+{% static "images" as baseUrl %}
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Form | Global Star Limited</title>
+  <link rel="stylesheet" href="{% static 'build/css/intlTelInput.css' %}">
+  <!-- <link rel="stylesheet" href="build/css/demo.css"> -->
+  <link rel="stylesheet" href="{% static 'build/css/all.min.css' %}">
+  <link rel="stylesheet" href="{% static 'build/css/animate.css' %}">
+  <link rel="stylesheet" href="{% static 'build/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'build/css/fontawesome.min.css' %}">
+  <link rel="stylesheet" href="{% static 'build/css/owl.carousel.min.css' %}">
+  <link rel="stylesheet" href="{% static 'build/css/responsive.css' %}">
+  <link rel="stylesheet" href="{% static 'build/css/style.css' %}">
+</head>
+
+<body>
+  <div class="formarea">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 register-left">
+          <div class="banner-bg bg1">
+
+            <!-- <h3>Welcome</h3> -->
+            <!-- <p>You are 30 seconds away from earning your own money!</p> --><br/>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="box_shadow">
+            <!-- <div class="row">
+              <div class="col-lg-2">
+                <div class="logo">
+                  <img src="build/image/logo.png" alt=""/>
+                </div>
+              </div>
+              <div class="col-lg-10">
+
+                <div class="title">
+                  <h3>Inquiry Form</h3>
+                </div>
+              </div>
+            </div> -->
+            <div class="title">
+            <br>
+              <h3>Inquiry Form</h3>
+            </div>
+            <form action="" method="post">
+
+              <!-- First Name -->
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="form_title">
+                    <label for="">Name</label>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="form_field">
+
+                    <span>*</span><input type="text" name="name" required=""> <br>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Mobile Number -->
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="form_title">
+                    <label for="">Mobile Number</label>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="form_field">
+                    <span>*</span><input id="phone" name="mobile_number" type="tel" required>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Mobile Number -->
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="form_title">
+                    <label for="">Email</label>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="form_field">
+                    <span>*</span><input name="email" type="email" required>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Interested country -->
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="form_title">
+                    <label for="">Interestred Country</label>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="form_field">
+
+                    <span>*</span><select name="country" class="selectpicker countrypicker" required>
+                      <option selected id="padding" disabled="">---Please Select---</option>
+                      <option value="Afghanistan"><i class='us flag'></i>Afghanistan</option>
+                      <option value="Åland Islands">Åland Islands</option>
+                      <option value="Albania">Albania</option>
+                      <option value="Algeria">Algeria</option>
+                      <option value="American Samoa">American Samoa</option>
+                      <option value="Andorra">Andorra</option>
+                      <option value="Angola">Angola</option>
+                      <option value="Anguilla">Anguilla</option>
+                      <option value="Antarctica">Antarctica</option>
+                      <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Armenia">Armenia</option>
+                      <option value="Aruba">Aruba</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Austria">Austria</option>
+                      <option value="Azerbaijan">Azerbaijan</option>
+                      <option value="Bahamas">Bahamas</option>
+                      <option value="Bahrain">Bahrain</option>
+                      <option value="Bangladesh">Bangladesh</option>
+                      <option value="Barbados">Barbados</option>
+                      <option value="Belarus">Belarus</option>
+                      <option value="Belgium">Belgium</option>
+                      <option value="Belize">Belize</option>
+                      <option value="Benin">Benin</option>
+                      <option value="Bermuda">Bermuda</option>
+                      <option value="Bhutan">Bhutan</option>
+                      <option value="Bolivia">Bolivia</option>
+                      <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                      <option value="Botswana">Botswana</option>
+                      <option value="Bouvet Island">Bouvet Island</option>
+                      <option value="Brazil">Brazil</option>
+                      <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                      <option value="Brunei Darussalam">Brunei Darussalam</option>
+                      <option value="Bulgaria">Bulgaria</option>
+                      <option value="Burkina Faso">Burkina Faso</option>
+                      <option value="Burundi">Burundi</option>
+                      <option value="Cambodia">Cambodia</option>
+                      <option value="Cameroon">Cameroon</option>
+                      <option value="Canada">Canada</option>
+                      <option value="Cape Verde">Cape Verde</option>
+                      <option value="Cayman Islands">Cayman Islands</option>
+                      <option value="Central African Republic">Central African Republic</option>
+                      <option value="Chad">Chad</option>
+                      <option value="Chile">Chile</option>
+                      <option value="China">China</option>
+                      <option value="Christmas Island">Christmas Island</option>
+                      <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                      <option value="Colombia">Colombia</option>
+                      <option value="Comoros">Comoros</option>
+                      <option value="Congo">Congo</option>
+                      <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
+                      <option value="Cook Islands">Cook Islands</option>
+                      <option value="Costa Rica">Costa Rica</option>
+                      <option value="Cote D'ivoire">Cote D'ivoire</option>
+                      <option value="Croatia">Croatia</option>
+                      <option value="Cuba">Cuba</option>
+                      <option value="Cyprus">Cyprus</option>
+                      <option value="Czech Republic">Czech Republic</option>
+                      <option value="Denmark">Denmark</option>
+                      <option value="Djibouti">Djibouti</option>
+                      <option value="Dominica">Dominica</option>
+                      <option value="Dominican Republic">Dominican Republic</option>
+                      <option value="Ecuador">Ecuador</option>
+                      <option value="Egypt">Egypt</option>
+                      <option value="El Salvador">El Salvador</option>
+                      <option value="Equatorial Guinea">Equatorial Guinea</option>
+                      <option value="Eritrea">Eritrea</option>
+                      <option value="Estonia">Estonia</option>
+                      <option value="Ethiopia">Ethiopia</option>
+                      <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+                      <option value="Faroe Islands">Faroe Islands</option>
+                      <option value="Fiji">Fiji</option>
+                      <option value="Finland">Finland</option>
+                      <option value="France">France</option>
+                      <option value="French Guiana">French Guiana</option>
+                      <option value="French Polynesia">French Polynesia</option>
+                      <option value="French Southern Territories">French Southern Territories</option>
+                      <option value="Gabon">Gabon</option>
+                      <option value="Gambia">Gambia</option>
+                      <option value="Georgia">Georgia</option>
+                      <option value="Germany">Germany</option>
+                      <option value="Ghana">Ghana</option>
+                      <option value="Gibraltar">Gibraltar</option>
+                      <option value="Greece">Greece</option>
+                      <option value="Greenland">Greenland</option>
+                      <option value="Grenada">Grenada</option>
+                      <option value="Guadeloupe">Guadeloupe</option>
+                      <option value="Guam">Guam</option>
+                      <option value="Guatemala">Guatemala</option>
+                      <option value="Guernsey">Guernsey</option>
+                      <option value="Guinea">Guinea</option>
+                      <option value="Guinea-bissau">Guinea-bissau</option>
+                      <option value="Guyana">Guyana</option>
+                      <option value="Haiti">Haiti</option>
+                      <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+                      <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+                      <option value="Honduras">Honduras</option>
+                      <option value="Hong Kong">Hong Kong</option>
+                      <option value="Hungary">Hungary</option>
+                      <option value="Iceland">Iceland</option>
+                      <option value="India">India</option>
+                      <option value="Indonesia">Indonesia</option>
+                      <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                      <option value="Iraq">Iraq</option>
+                      <option value="Ireland">Ireland</option>
+                      <option value="Isle of Man">Isle of Man</option>
+                      <option value="Israel">Israel</option>
+                      <option value="Italy">Italy</option>
+                      <option value="Jamaica">Jamaica</option>
+                      <option value="Japan">Japan</option>
+                      <option value="Jersey">Jersey</option>
+                      <option value="Jordan">Jordan</option>
+                      <option value="Kazakhstan">Kazakhstan</option>
+                      <option value="Kenya">Kenya</option>
+                      <option value="Kiribati">Kiribati</option>
+                      <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
+                      <option value="Korea, Republic of">Korea, Republic of</option>
+                      <option value="Kuwait">Kuwait</option>
+                      <option value="Kyrgyzstan">Kyrgyzstan</option>
+                      <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+                      <option value="Latvia">Latvia</option>
+                      <option value="Lebanon">Lebanon</option>
+                      <option value="Lesotho">Lesotho</option>
+                      <option value="Liberia">Liberia</option>
+                      <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                      <option value="Liechtenstein">Liechtenstein</option>
+                      <option value="Lithuania">Lithuania</option>
+                      <option value="Luxembourg">Luxembourg</option>
+                      <option value="Macao">Macao</option>
+                      <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+                      <option value="Madagascar">Madagascar</option>
+                      <option value="Malawi">Malawi</option>
+                      <option value="Malaysia">Malaysia</option>
+                      <option value="Maldives">Maldives</option>
+                      <option value="Mali">Mali</option>
+                      <option value="Malta">Malta</option>
+                      <option value="Marshall Islands">Marshall Islands</option>
+                      <option value="Martinique">Martinique</option>
+                      <option value="Mauritania">Mauritania</option>
+                      <option value="Mauritius">Mauritius</option>
+                      <option value="Mayotte">Mayotte</option>
+                      <option value="Mexico">Mexico</option>
+                      <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+                      <option value="Moldova, Republic of">Moldova, Republic of</option>
+                      <option value="Monaco">Monaco</option>
+                      <option value="Mongolia">Mongolia</option>
+                      <option value="Montenegro">Montenegro</option>
+                      <option value="Montserrat">Montserrat</option>
+                      <option value="Morocco">Morocco</option>
+                      <option value="Mozambique">Mozambique</option>
+                      <option value="Myanmar">Myanmar</option>
+                      <option value="Namibia">Namibia</option>
+                      <option value="Nauru">Nauru</option>
+                      <option value="Nepal">Nepal</option>
+                      <option value="Netherlands">Netherlands</option>
+                      <option value="Netherlands Antilles">Netherlands Antilles</option>
+                      <option value="New Caledonia">New Caledonia</option>
+                      <option value="New Zealand">New Zealand</option>
+                      <option value="Nicaragua">Nicaragua</option>
+                      <option value="Niger">Niger</option>
+                      <option value="Nigeria">Nigeria</option>
+                      <option value="Niue">Niue</option>
+                      <option value="Norfolk Island">Norfolk Island</option>
+                      <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                      <option value="Norway">Norway</option>
+                      <option value="Oman">Oman</option>
+                      <option value="Pakistan">Pakistan</option>
+                      <option value="Palau">Palau</option>
+                      <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+                      <option value="Panama">Panama</option>
+                      <option value="Papua New Guinea">Papua New Guinea</option>
+                      <option value="Paraguay">Paraguay</option>
+                      <option value="Peru">Peru</option>
+                      <option value="Philippines">Philippines</option>
+                      <option value="Pitcairn">Pitcairn</option>
+                      <option value="Poland">Poland</option>
+                      <option value="Portugal">Portugal</option>
+                      <option value="Puerto Rico">Puerto Rico</option>
+                      <option value="Qatar">Qatar</option>
+                      <option value="Reunion">Reunion</option>
+                      <option value="Romania">Romania</option>
+                      <option value="Russian Federation">Russian Federation</option>
+                      <option value="Rwanda">Rwanda</option>
+                      <option value="Saint Helena">Saint Helena</option>
+                      <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                      <option value="Saint Lucia">Saint Lucia</option>
+                      <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                      <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+                      <option value="Samoa">Samoa</option>
+                      <option value="San Marino">San Marino</option>
+                      <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                      <option value="Saudi Arabia">Saudi Arabia</option>
+                      <option value="Senegal">Senegal</option>
+                      <option value="Serbia">Serbia</option>
+                      <option value="Seychelles">Seychelles</option>
+                      <option value="Sierra Leone">Sierra Leone</option>
+                      <option value="Singapore">Singapore</option>
+                      <option value="Slovakia">Slovakia</option>
+                      <option value="Slovenia">Slovenia</option>
+                      <option value="Solomon Islands">Solomon Islands</option>
+                      <option value="Somalia">Somalia</option>
+                      <option value="South Africa">South Africa</option>
+                      <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
+                      <option value="Spain">Spain</option>
+                      <option value="Sri Lanka">Sri Lanka</option>
+                      <option value="Sudan">Sudan</option>
+                      <option value="Suriname">Suriname</option>
+                      <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                      <option value="Swaziland">Swaziland</option>
+                      <option value="Sweden">Sweden</option>
+                      <option value="Switzerland">Switzerland</option>
+                      <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                      <option value="Taiwan, Province of China">Taiwan, Province of China</option>
+                      <option value="Tajikistan">Tajikistan</option>
+                      <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                      <option value="Thailand">Thailand</option>
+                      <option value="Timor-leste">Timor-leste</option>
+                      <option value="Togo">Togo</option>
+                      <option value="Tokelau">Tokelau</option>
+                      <option value="Tonga">Tonga</option>
+                      <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                      <option value="Tunisia">Tunisia</option>
+                      <option value="Turkey">Turkey</option>
+                      <option value="Turkmenistan">Turkmenistan</option>
+                      <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                      <option value="Tuvalu">Tuvalu</option>
+                      <option value="Uganda">Uganda</option>
+                      <option value="Ukraine">Ukraine</option>
+                      <option value="United Arab Emirates">United Arab Emirates</option>
+                      <option value="United Kingdom">United Kingdom</option>
+                      <option value="United States">United States</option>
+                      <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                      <option value="Uruguay">Uruguay</option>
+                      <option value="Uzbekistan">Uzbekistan</option>
+                      <option value="Vanuatu">Vanuatu</option>
+                      <option value="Venezuela">Venezuela</option>
+                      <option value="Viet Nam">Viet Nam</option>
+                      <option value="Virgin Islands, British">Virgin Islands, British</option>
+                      <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+                      <option value="Wallis and Futuna">Wallis and Futuna</option>
+                      <option value="Western Sahara">Western Sahara</option>
+                      <option value="Yemen">Yemen</option>
+                      <option value="Zambia">Zambia</option>
+                      <option value="Zimbabwe">Zimbabwe</option>
+                    </select>
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- Study Reason -->
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="form_title">
+                    <label for="">Purpose</label>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="form_field">
+                    <span>*</span><select name="purpose" required="" onChange="citySelectHandler1(this)">
+                      <option selected disabled=""disabled="">---Please Select---</option>
+                      <option value="Study">Study </option>
+                      <option value="Work">Work</option>
+                      <option value="Visa Process">Visa Process</option>
+                      <option value="Air Ticket">Air Ticket</option>
+                      <option value="Other Service">Other Service</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <!--Study Reason -->
+              <div class="row">
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4 postion1">
+                  <div class="form_field">
+                   <!-- chittagong -->
+                   <select style="display:none" id="study" name="interested_level_of_study" onChange="citySelectHandler1(this)">
+                    <option class="selected" value="" selected="" disabled="">---Select---</option>
+                    <option value="KG to 10 class">KG to 10 class</option>
+                    <option value="12 class">12 class</option>
+                    <option value="Diploma">Diploma</option>
+                    <option value="Undergraduate">Undergraduate</option>
+                    <option value="Post Graduate">Post Graduate</option>
+                    <option value="Phd">Phd</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form_field">
+                 <!-- chittagong -->
+                 <select style="display:none" id="study1" name="interested_undergraduate_fields">
+                  <option class="selected" value="" selected="" disabled="">---Select Subject---</option>
+                  <option value="Engineering">Engineering</option>
+                  <option value="Medicine">Medicine</option>
+                  <option value="Business">Business</option>
+                  <option value="Management">Management</option>
+                  <option value="Medical Related Course(Physiotherapy, MLT, Paramedical etc)">Medical Related Course(Physiotherapy, MLT, Paramedical etc)</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-lg-4 postion13">
+              <div class="form_field">
+               <!-- chittagong -->
+               <select style="display:none" id="study4" name="">
+                <option value="KG to 10 class">KG to 10 class</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-lg-4 postion13">
+            <div class="form_field">
+             <!-- chittagong -->
+             <select style="display:none" id="study5" name="">
+              <option value="12 class">12 class</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-lg-4 postion13">
+          <div class="form_field">
+           <!-- chittagong -->
+           <select style="display:none" id="study6" name="">
+            <option value="Diploma">Diploma</option>
+          </select>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 postion12">
+        <div class="form_field">
+         <input type="text" style="display:none" id="study2" name="interested_post_graduate_fields" placeholder="Enter Subject">
+       </div>
+     </div>
+     <div class="col-lg-4 postion12">
+      <div class="form_field">
+       <input type="text" style="display:none" id="study3" name="interested_phd_fields" placeholder="Enter Subject">
+     </div>
+   </div>
+ </div>
+
+
+
+ <!-- Work Reason -->
+
+ <div class="row">
+  <div class="col-lg-4">
+  </div>
+  <div class="col-lg-4 postion1">
+    <div class="form_field">
+     <!-- chittagong -->
+     <select style="display:none" id="work" name="employment_type" onChange="citySelectHandler1(this)">
+      <option class="selected" value="" selected="" disabled="">---Select One---</option>
+      <option value="Skilled">Skilled</option>
+      <option value="Unskilled">Unskilled</option>
+    </select>
+  </div>
+</div>
+<div class="col-lg-4">
+  <div class="form_field">
+   <!-- chittagong -->
+   <select style="display:none" id="skilled" name="employment_skills_categories" onChange="citySelectHandler1(this)">
+    <option class="selected" value="" selected="" disabled="">---Select your Skilled---</option>
+    <option value="IT">IT</option>
+    <option value="Civil Engineer">Civil Engineer</option>
+    <option value="Other Engineer">Other Engineer</option>
+    <option value="Constructor Labour">Constructor Labour</option>
+    <option value="Other">Other</option>
+  </select>
+</div>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4"></div>
+  <div class="col-lg-4">
+    <div class="form_field IT civil">
+     <!-- chittagong -->
+     <select style="display:none" id="it" name="employment_skills_sub_categories">
+      <option class="selected" value="" selected="" disabled="">---Select Profession---</option>
+      <option value="Engineering">Software</option>
+      <option value="Network">Network</option>
+      <option value="Hardware">Hardware</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+</div>
+
+<div class="col-lg-4">
+  <div class="form_field">
+   <!-- chittagong -->
+   <input type="text" style="display:none" id="year1" name="total_year_of_experiences" placeholder="Experience Year">
+ </div>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4"></div>
+
+  <div class="col-lg-4">
+    <div class="form_field civil">
+     <!-- chittagong -->
+     <select style="display:none" id="employment_skills_sub_categories" name="civil_engineer">
+      <option class="selected" value="" selected="" disabled="">---Select Profession---</option>
+      <option value="Deputy Manager">Deputy Manager</option>
+      <option value="Executive ">Executive</option>
+      <option value="Business">Project Engineer</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+</div>
+
+<div class="col-lg-4">
+  <div class="form_field civil_year">
+   <input type="text" style="display:none" id="year2" name="total_year_of_experiences" placeholder="Experience Year">
+ </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4"></div>
+
+  <div class="col-lg-4">
+    <div class="form_field other">
+     <!-- chittagong -->
+     <select style="display:none" id="other_engineer" name="employment_skills_sub_categories">
+      <option class="selected" value="" selected="" disabled="">---Select Profession---</option>
+      <option value="Deputy Manager">Deputy Manager</option>
+      <option value="Executive ">Executive</option>
+      <option value="Business">Project Engineer</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+</div>
+
+<div class="col-lg-4">
+  <div class="form_field other_year">
+    <input type="text" style="display:none" id="year3" name="total_year_of_experiences" placeholder="Experience Year">
+  </div>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4"></div>
+
+  <div class="col-lg-4">
+    <div class="form_field labour">
+     <!-- chittagong -->
+     <select style="display:none" id="construction" name="employment_skills_sub_categories">
+      <option class="selected" value="" selected="" disabled="">---Select Profession---</option>
+      <option value="Construction Interface Engineer">Interface Engineer</option>
+      <option value="Store Keeper ">Store Keeper</option>
+      <option value="Business">Project Engineer</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+</div>
+
+<div class="col-lg-4">
+  <div class="form_field labour_year">
+    <input type="text" style="display:none" id="year4" name="total_year_of_experiences" placeholder="Experience Year">
+  </div>
+</div>
+</div>
+
+
+<div class="row">
+  <div class="col-lg-4"></div>
+  <div class="col-lg-4">
+    <div class="form_field other">
+     <!-- chittagong -->
+     <input type="text" style="display:none" id="other" name="employment_skills_sub_categories" placeholder="Enter here..">
+   </div>
+ </div>
+
+ <div class="col-lg-4">
+  <div class="form_field other_year">
+   <!-- chittagong -->
+   <input type="text" style="display:none" id="year5" name="total_year_of_experiences" placeholder="Experience Year">
+ </div>
+</div>
+</div>
+
+
+
+<div class="col-lg-4">
+  <div class="form_field">
+   <!-- chittagong -->
+   <select style="display:none" id="unskilled" name="">
+    <option value="Unskilled">Unskilled</option>
+  </select>
+</div>
+</div>
+</div>
+
+
+<!-- Visa -->
+
+<div class="row">
+  <div class="col-lg-4">
+  </div>
+  <div class="col-lg-4 postion1">
+    <div class="form_field">
+     <!-- chittagong -->
+     <select style="display:none" id="visa" name="visa_type" onChange="citySelectHandler1(this)">
+      <option class="selected" value="" selected="" disabled="">---Select One---</option>
+      <option value="Studys">Study</option>
+      <option value="Tourist">Tourist</option>
+      <option value="Business">Business</option>
+      <option value="Conference">Conference</option>
+      <option value="Family">Family</option>
+      <option value="Migration">Migration</option>
+    </select>
+  </div>
+</div>
+
+<div class="col-lg-4">
+  <div class="form_field">
+   <!-- chittagong -->
+   <input type="text" style="display:none" id="year6" name="deatils_of_travels" placeholder="Deatils of Travels">
+ </div>
+</div>
+
+<div class="col-lg-4">
+  <div class="form_field year7">
+   <!-- chittagong -->
+   <input type="text" style="display:none" id="year7" name="deatils_of_travels" placeholder="Deatils of Travels">
+ </div>
+</div>
+
+<div class="col-lg-4">
+  <div class="form_field year8">
+   <!-- chittagong -->
+   <input type="text" style="display:none" id="year8" name="deatils_of_travels" placeholder="Deatils of Travels">
+ </div>
+</div>
+
+<div class="col-lg-4">
+  <div class="form_field year9">
+   <!-- chittagong -->
+   <input type="text" style="display:none" id="year9" name="deatils_of_travels" placeholder="Deatils of Travels">
+ </div>
+</div>
+
+<div class="col-lg-4">
+  <div class="form_field year10">
+   <!-- chittagong -->
+   <input type="text" style="display:none" id="year10" name="deatils_of_travels" placeholder="Deatils of Travels">
+ </div>
+</div>
+
+<div class="col-lg-4">
+  <div class="form_field year11">
+   <!-- chittagong -->
+   <input type="text" style="display:none" id="year11" name="deatils_of_travels" placeholder="Deatils of Travels">
+ </div>
+</div>
+</div>
+
+
+<!-- Air -->
+
+<div class="row">
+  <div class="col-lg-4">
+  </div>
+
+  <div class="col-lg-4">
+    <div class="form_field Airline_css">
+      <input type="text" onfocus="(this.type='date')" style="display:none" id="travel_date" name="travel_date" placeholder="Travel Date">
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="form_field">
+     <!-- chittagong -->
+     <select style="display:none" id="Airline" name="interested_airline">
+      <option class="selected" value="" selected="" disabled="">---Choice Airline---</option>
+      <option value="US Bangla">US Bangla</option>
+      <option value="Bangladesh Biman">Bangladesh Biman</option>
+      <option value="Novoair">Novoair</option>
+      <option value="Regent Airways">Regent Airways</option>
+    </select>
+  </div>
+</div>
+</div>
+
+
+<div class="row">
+  <div class="col-lg-4"></div>
+  <div class="col-lg-4">
+    <div class="form_field Airline_css">
+      <select style="display:none" id="type_visa" name="visa_type">
+        <option class="selected" value="" selected="" disabled="">---Type of Visa---</option>
+        <option value="Travel Visa">Travel Visa</option>
+        <option value="Business Visa">Business Visa</option>
+        <option value="Diplomatic/Official Visa">Diplomatic/Official Visa</option>
+        <option value="Family Visit Visa">Family Visit Visa</option>
+        <option value="On Arrival Visa">On Arrival Visa</option>
+        <option value="Student Visa">Student Visa</option>
+         <option value="Tourist Visa">Tourist Visa</option>
+         <option value="Transit Visa">Transit Visa</option>
+         <option value="Visit Visa">Visit Visa</option>
+         <option value="Work Visa">Work Visa</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="form_field">
+     <!-- chittagong -->
+     <input type="text" style="display:none" id="city" name="city" placeholder="Destination city">
+   </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-4"></div>
+
+  <div class="col-lg-8">
+    <div class="form_field">
+     <!-- chittagong -->
+     <input type="text" style="display:none" id="service" name="deatils_of_service" placeholder="What service you need?">
+   </div>
+ </div>
+</div>
+
+
+
+
+<div id="display_none">
+  <!-- qualification -->
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="form_title Education">
+        <label for="">Education Qualification</label>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="form_field">
+        <select id="qualification" name="educational_qualification">
+          <option selected disabled="">---Please Select---</option>
+          <option value="KG(1-9) Class">KG(1-9) Class </option>
+          <option value="SSC/Equivalent">SSC/Equivalent</option>
+          <option value="HSC/Equivalent">HSC/Equivalent</option>
+          <option value="Diploma">Diploma</option>
+          <option value="Bachelor">Bachelor</option>
+          <option value="Masters">Masters</option>
+          <option value="Others">Others</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="form_field">
+        <select id="result_qualification" name="educational_qualification_result">
+          <option selected disabled="">GPA/CGPA</option>
+          <option value="2+">2.00+ </option>
+          <option value="3.00+">3.00+</option>
+          <option value="3.50+">3.50+</option>
+          <option value="4.00+">4.00+</option>
+          <option value="4.50+">4.50+</option>
+          <option value="5.00">5.00</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="form_field qualification_year">
+        <select name="qualification">
+          <option selected value="none" selected disabled hidden>Year</option>
+          <option value="1995">1995</option>
+          <option value="1996">1996</option>
+          <option value="1997">1997</option>
+          <option value="1998">1998</option>
+          <option value="1999">1999</option>
+          <option value="2000">2000</option>
+          <option value="2001">2001</option>
+          <option value="2002">2002</option>
+          <option value="2003">2003</option>
+          <option value="2004">2004</option>
+          <option value="2005">2005</option>
+          <option value="2006">2006</option>
+          <option value="2007">2007</option>
+          <option value="2008">2008</option>
+          <option value="2009">2009</option>
+          <option value="2010">2010</option>
+          <option value="2011">2011</option>
+          <option value="2012">2012</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+          <option value="2025">2025</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Last Academy -->
+<div class="row">
+  <div class="col-lg-4">
+    <div class="form_title">
+      <label for="">Professional Training</label>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="form_field professional_tranining">
+      <input type="text" name="professional_tranining" placeholder="Training Title">
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="form_field training_duration">
+      <input type="text" name="professional_tranining_duration" placeholder="Duration">
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="form_field training_year">
+      <select name="professional_tranining_year">
+        <option selected value="none" selected disabled hidden>Year</option>
+        <option value="1995">1995</option>
+        <option value="1996">1996</option>
+        <option value="1997">1997</option>
+        <option value="1998">1998</option>
+        <option value="1999">1999</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        <option value="2005">2005</option>
+        <option value="2006">2006</option>
+        <option value="2007">2007</option>
+        <option value="2008">2008</option>
+        <option value="2009">2009</option>
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<!-- Last year -->
+<div class="row">
+  <div class="col-lg-4">
+    <div class="form_title">
+      <label for="">English Proficiency</label>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="form_field english_proficiency">
+      <select id="english_proficiency" name="english_proficiency_test_name" onChange="citySelectHandler2(this)"> 
+        <option selected disabled="">---Please Select---</option>
+        <option value="IELTS">IELTS</option>
+        <option value="TOEFL">TOEFL</option>
+        <option value="PTE">PTE</option>
+        <option value="EFS">EFS</option>
+        <option value="EPT">EPT</option>
+        <option value="other">Other</option>
+      </select>
+
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="form_field score">
+      <input type="number" id="score" name="english_proficiency_test_score" placeholder="Test Score">
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="form_field">
+      <input type="text" id="proficiency_other" name="english_proficiency_test_name" style="display:none" placeholder="English Test Name">
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- Division -->
+<div class="row">
+  <div class="col-lg-4">
+    <div class="form_title">
+      <label for="">Location</label>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="form_field select_width">
+      <span>*</span><select id="city" name="division" required="" onChange="citySelectHandler(this)">
+        <option class="selected" value="" selected="" disabled="">---Select Division---</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Chittagong">Chittagong</option>
+        <option value="Sylhet">Sylhet</option>
+        <option value="Rangpur">Rangpur</option>
+        <option value="Rajshahi">Rajshahi</option>
+        <option value="Khulna">Khulna</option>
+        <option value="Barisal">Barisal</option>
+        <option value="Mymensingh">Mymensingh</option>
+        <option value="Other Location">Other Location</option>
+      </select>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="form_field select_width">
+      <!-- District -->
+      <!-- Dhaka Division -->
+      <select id="dhaka_dist" name="district">
+        <option class="selected" value="" selected="" disabled="">---Select District---</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Faridpur">Faridpur</option>
+        <option value="Gazipur">Gazipur</option>
+        <option value="Gopalganj">Gopalganj</option>
+        <option value="Kishoreganj">Kishoreganj</option>
+        <option value="Madaripur">Madaripur</option>
+        <option value="Manikganj">Manikganj</option>
+        <option value="Munshiganj">Munshiganj</option>
+        <option value="Narayanganj">Narayanganj</option>
+        <option value="Narsingdi">Narsingdi</option>
+        <option value="Rajbari">Rajbari</option>
+        <option value="Shariatpur">Shariatpur</option>
+        <option value="Tangail">Tangail</option>
+      </select>
+
+
+      <!-- chittagong -->
+      <select style="display:none" id="chittagong_dist" name="district">
+        <option class="selected" value="" selected="" disabled="">---Select District---</option>
+        <option value="Bandarban">Bandarban</option>
+        <option value="Brahmanbaria">Brahmanbaria</option>
+        <option value="Chandpur">Chandpur</option>
+        <option value="Chittagong">Chittagong</option>
+        <option value="Comilla">Comilla</option>
+        <option value="Cox's Bazar">Cox's Bazar</option>
+        <option value="Feni">Feni</option>
+        <option value="Khagrachhari">Khagrachhari</option>
+        <option value="Lakshmipur">Lakshmipur</option>
+        <option value="Noakhali">Noakhali</option>
+        <option value="Rangamati">Rangamati</option>
+      </select>
+
+      <!-- sylhet -->
+      <select style="display:none" id="sylhet_dist" name="district">
+        <option class="selected" value="" selected="" disabled="">---Select District---</option>
+        <option value="Habiganj">Habiganj</option>
+        <option value="Moulvibazar">Moulvibazar</option>
+        <option value="Sunamganj">Sunamganj</option>
+        <option value="Sylhet">Sylhet</option>
+      </select>
+      <!-- rangpur -->
+      <select style="display:none" id="rangpur_dist" name="district">
+        <option class="selected" value="" selected="" disabled="">---Select District---</option>
+        <option value="Dinajpur">Dinajpur</option>
+        <option value="Gaibandha">Gaibandha</option>
+        <option value="Kurigram">Kurigram</option>
+        <option value="Lalmonirhat">Lalmonirhat</option>
+        <option value="Nilphamari">Nilphamari</option>
+        <option value="Panchagarh">Panchagarh</option>
+        <option value="Rangpur">Rangpur</option>
+        <option value="Thakurgaon">Thakurgaon</option>
+      </select>
+      <!-- rajshahi -->
+      <select style="display:none" id="rajshahi_dist" name="district">
+        <option class="selected" value="" selected="" disabled="">---Select District---</option>
+        <option value="Bogra">Bogra</option>
+        <option value="Joypurhat">Joypurhat</option>
+        <option value="Naogaon">Naogaon</option>
+        <option value="Natore">Natore</option>
+        <option value="Chapainawabganj">Chapainawabganj</option>
+        <option value="Pabna">Pabna</option>
+        <option value="Rajshahi">Rajshahi</option>
+        <option value="Rajshahi">Sirajganj</option>
+      </select>
+      <!-- khulna -->
+      <select style="display:none" id="khulna_dist" name="district">
+        <option class="selected" value="" selected="" disabled="">---Select District---</option>
+        <option value="Bagerhat">Bagerhat</option>
+        <option value="Chuadanga">Chuadanga</option>
+        <option value="Jessore">Jessore</option>
+        <option value="Jhenaidah">Jhenaidah</option>
+        <option value="Khulna">Khulna</option>
+        <option value="Kushtia">Kushtia</option>
+        <option value="Magura">Magura</option>
+        <option value="Meherpur">Meherpur</option>
+        <option value="Narail">Narail</option>
+        <option value="Satkhira">Satkhira</option>
+      </select>
+
+      <!-- barisal -->
+
+      <select style="display:none" id="barisal_dist" name="district">
+        <option class="selected" value="" selected="" disabled="">---Select District---</option>
+        <option value="Barguna">Barguna</option>
+        <option value="Barisal">Barisal</option>
+        <option value="Bhola">Bhola</option>
+        <option value="Jhalokati">Jhalokati</option>
+        <option value="Patuakhali">Patuakhali</option>
+        <option value="Pirojpur">Pirojpur</option>
+
+        <!-- mymensingh -->
+      </select>
+      <select style="display:none" id="mymensingh_dist" name="district">
+        <option class="selected" value="" selected="" disabled="">---Select District---</option>
+        <option value="Jamalpur">Jamalpur</option>
+        <option value="Mymensingh">Mymensingh</option>
+        <option value="Netrakona">Netrakona</option>
+        <option value="Sherpur">Sherpur</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- Division -->
+  <div class="row">
+    <div class="col-lg-4">
+  </div><!-- 
+  <div class="col-lg-4">
+    <div class="form_field select_width">
+      <input type="text" style="display:none"  id="other_location1" name="other_location" placeholder="">
+    </div>
+  </div> -->
+  <div class="col-lg-4">
+    <div class="form_field other_location2">
+     <input type="text" style="display:none"  id="other_location2" name="location_details" placeholder="Where are you from?">
+   </div>
+ </div>
+</div>
+<div class="button1">
+  <input type="submit" class="btnRegister" name="done" />
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="build/js/intlTelInput.js"></script>
+<script>
+  var input = document.querySelector("#phone");
+  window.intlTelInput(input, {
+    utilsScript: "build/js/utils.js",
+  });
+</script>
+
+<script>
+
+  function citySelectHandler2(select){
+
+    if(select.value == "other"){
+      $("#proficiency_other").show(); 
+    }else{
+      $("#proficiency_other").css({'display':'none'});
+    }
+  }
+
+  function citySelectHandler(select){
+    if(select.value == "Dhaka"){
+      $("#dhaka_dist").show(); 
+    }else{
+      $("#dhaka_dist").css({'display':'none'});
+    }
+
+    if(select.value == "Chittagong"){
+      $("#chittagong_dist").show(); 
+    }else{
+      $("#chittagong_dist").css({'display':'none'});
+    }
+
+    if(select.value == "Other Location"){
+      $("#other_location1").show(); 
+      $("#other_location2").show(); 
+    }else{
+      $("#other_location1").css({'display':'none'});
+      $("#other_location2").css({'display':'none'});
+    }
+
+    if(select.value == "Sylhet"){
+      $("#sylhet_dist").show(); 
+    }else{
+      $("#sylhet_dist").css({'display':'none'});
+    }
+
+    if(select.value == "Rangpur"){
+      $("#rangpur_dist").show(); 
+    }else{
+      $("#rangpur_dist").css({'display':'none'});
+    }
+
+    if(select.value == "Rajshahi"){
+      $("#rajshahi_dist").show(); 
+    }else{
+      $("#rajshahi_dist").css({'display':'none'});
+    }
+
+    if(select.value == "Khulna"){
+      $("#khulna_dist").show(); 
+    }else{
+
+      $("#khulna_dist").css({'display':'none'});
+
+    }
+    if(select.value == "Barisal"){
+      $("#barisal_dist").show(); 
+    }else{
+      $("#barisal_dist").css({'display':'none'});
+    }
+
+    if(select.value == "Mymensingh"){
+      $("#mymensingh_dist").show(); 
+    }else{
+
+      $("#mymensingh_dist").css({'display':'none'});
+
+    }
+  }
+
+
+
+    // Purpose
+
+    function citySelectHandler1(select){
+
+      /*study*/
+      if(select.value == "Air Ticket"){
+        $("#travel_date").show(); 
+        $("#Airline").show(); 
+        $("#type_visa").show(); 
+        $("#city").show(); 
+      }else{
+        $("#travel_date").css({'display':'none'});
+        $("#Airline").css({'display':'none'});
+        $("#type_visa").css({'display':'none'});
+        $("#city").css({'display':'none'});
+      }
+
+      /*study*/
+      if(select.value == "Other Service"){
+        $("#service").show(); 
+      }else{
+        $("#service").css({'display':'none'});
+      }
+
+      /*study*/
+      if(select.value == "Visa Process"){
+        $("#visa").show(); 
+      }else{
+        $("#visa").css({'display':'none'});
+      }
+
+      if(select.value == "Studys"){
+        $("#visa").show(); 
+        $("#year6").show(); 
+      }else{
+        $("#year6").css({'display':'none'});
+      } 
+
+      if(select.value == "Tourist"){
+        $("#visa").show(); 
+        $("#year7").show(); 
+      }else{
+        $("#year7").css({'display':'none'});
+      } 
+
+      if(select.value == "Business"){
+        $("#visa").show(); 
+        $("#year8").show(); 
+      }else{
+        $("#year8").css({'display':'none'});
+      } 
+
+      if(select.value == "Conference"){
+        $("#visa").show(); 
+        $("#year9").show(); 
+      }else{
+        $("#year9").css({'display':'none'});
+      } 
+
+      if(select.value == "Family"){
+        $("#visa").show(); 
+        $("#year10").show(); 
+      }else{
+        $("#year10").css({'display':'none'});
+      } 
+
+      if(select.value == "Migration"){
+        $("#visa").show(); 
+        $("#year11").show(); 
+      }else{
+        $("#year11").css({'display':'none'});
+      } 
+
+      /*study*/
+      if(select.value == "Study"){
+        $("#study").show(); 
+      }else{
+        $("#study").css({'display':'none'});
+      }
+
+      if(select.value == "Undergraduate"){
+        $("#study").show(); 
+        $("#study1").show(); 
+      }else{
+        $("#study1").css({'display':'none'});
+      }
+
+      if(select.value == "Post Graduate"){
+        $("#study").show(); 
+        $("#study2").show(); 
+      }else{
+        $("#study2").css({'display':'none'});
+      }
+
+      if(select.value == "Phd"){
+        $("#study").show(); 
+        $("#study3").show();
+      }else{
+        $("#study3").css({'display':'none'});
+      }
+
+      if(select.value == "KG to 10 class"){
+        $("#study").show(); 
+       // $("#study4").show();
+     }else{
+      $("#study4").css({'display':'none'});
+    }
+
+    // if(select.value == "Visa Process"){
+    //   $("#visa").show();
+    // }else{
+    //   $("#visa").css({'display':'none'});
+    // }
+
+    // if(select.value == "Study"){
+    //   $("#visa").show(); 
+    //   $("#year6").show();
+    //  }else{
+    //   $("#visa").css({'display':'none'});
+    //   $("#year6").css({'display':'none'});
+    // }
+
+    if(select.value == "12 class"){
+      $("#study").show(); 
+       // $("#study5").show();
+     }else{
+      $("#study5").css({'display':'none'});
+    }
+
+    if(select.value == "Diploma"){
+      $("#study").show(); 
+        //$("#study6").show();
+      }else{
+        $("#study6").css({'display':'none'});
+      }
+
+
+      // work
+      if(select.value == "Work"){
+        $("#work").show(); 
+      }else{
+        $("#work").css({'display':'none'});
+      }
+
+      if(select.value == "Skilled"){
+        $("#work").show(); 
+        $("#skilled").show(); 
+      }else{
+        $("#skilled").css({'display':'none'});
+      }
+
+      if(select.value == "IT"){
+        $("#work").show();
+        $("#skilled").show();  
+        $("#it").show(); 
+        $("#year1").show(); 
+      }else{
+        $("#it").css({'display':'none'});
+        $("#year1").css({'display':'none'});
+      }
+
+
+      if(select.value == "Civil Engineer"){
+        $("#work").show();
+        $("#skilled").show();  
+        $("#civil_engineer").show(); 
+        $("#year2").show(); 
+      }else{
+        $("#civil_engineer").css({'display':'none'});
+        $("#year2").css({'display':'none'});
+      }
+
+      if(select.value == "Other Engineer"){
+        $("#work").show();
+        $("#skilled").show();  
+        $("#other_engineer").show(); 
+        $("#year3").show(); 
+      }else{
+        $("#other_engineer").css({'display':'none'});
+        $("#year3").css({'display':'none'});
+      }
+
+      if(select.value == "Constructor Labour"){
+        $("#work").show();
+        $("#skilled").show();  
+        $("#construction").show(); 
+        $("#year4").show(); 
+      }else{
+        $("#construction").css({'display':'none'});
+        $("#year4").css({'display':'none'});
+      }
+
+      if(select.value == "Other"){
+        $("#work").show();
+        $("#skilled").show();  
+        $("#other").show(); 
+        $("#year5").show(); 
+      }else{
+        $("#other").css({'display':'none'});
+        $("#year5").css({'display':'none'});
+      }
+
+      // if(select.value == "Other"){
+      //   $("#work").show();
+      //   $("#skilled").show();  
+      //   $("#other").show(); 
+      //   $("#year5").show(); 
+      // }else{
+      //   $("#other").css({'display':'none'});
+      //   $("#year5").css({'display':'none'});
+      // }
+
+      if(select.value == "Study" || select.value == "Phd" || select.value == "Post Graduate" || select.value == "Undergraduate" || select.value == "Diploma" || select.value == "KG to 10 class" || select.value == "12 class" || select.value == "Work" || select.value == "Skilled" || select.value == "IT" || select.value == "Civil Engineer" || select.value == "Other Engineer" || select.value == "Constructor Labour" || select.value == "Other"){
+        $("#display_none").show(); 
+      }else{
+        $("#display_none").css({'display':'none'});
+      }
+
+      // if(select.value == "Work" || select.value == "Skilled" || select.value == "IT" || select.value == "Civil Engineer" || select.value == "Other Engineer" || select.value == "Constructor Labour" || select.value == "Other"){
+      //   $("#display_none").show(); 
+      // }else{
+      //   $("#display_none").css({'display':'none'});
+      // }
+
+
+
+
+    }
+    
+  </script>
+</script>
+
+<script src="build/js/jquery-3.2.1.slim.min.js"></script>
+<script src="build/js/bootstrap.min.js"></script>
+<script src="build/js/fontawesome.min.js"></script>
+<script src="build/js/fontawesome.min.js"></script>
+<script src="build/js/fontawesome.min.js"></script>
+<script src="build/js/popper.min.js"></script>
+<script src="build/js/owl.carousel.min.js"></script>
+<script src="build/js/main.js"></script>
+</body>
+
+</html>
+
+
+
+<style>
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+
+    .title {
+      text-align: center;
+      margin-left: 50px;
+    }
+    select#result_qualification {
+      margin-left: 9px;
+      width: 95%;
+    }
+
+    .form_field.qualification_year {
+      margin-left: 9px;
+      width: 99%;
+    }
+    select#skilled {
+      margin-left: 11px;
+    }
+
+    input#year1 {
+      margin-left: 13px;
+    }
+
+    select#study1 {
+      margin-left: 10px;
+    }
+
+    input#study2, input#study3 {
+      margin-left: 142px;
+      width: 68%;
+      margin-top: 35px;
+    }
+    input#year2 {
+      margin-left: 12px;
+    }
+
+    select#other_engineer {
+      width: 70%;
+      margin-left: -43px;
+    }
+
+    input#year3 {
+      width: 70%;
+      margin-left: -80px;
+    }
+
+    select#construction {
+      width: 94%;
+    }
+
+    input#year4 {
+      margin-left: 23px;
+      width: 136%;
+    }
+
+    input#other {
+      width: 70%;
+      margin-left: -45px;
+    }
+
+    input#year5 {
+      width: 70%;
+      margin-left: -83px;
+    }
+
+    select#dhaka_dist {
+      margin-left: 8px;
+    }
+    .form_title {
+      text-align: left;
+      padding-left: 12px;
+    }
+
+    .box_shadow {
+      padding-left: 60px;
+      height: 1190px;
+    }
+    .formarea {
+      height: 1250px;
+    }
+    .btnRegister {
+      margin-top: 2%;
+      border-radius: 1.5rem;
+      padding: 1%;
+      background: #ed1a4d;
+      color: #fff;
+      font-weight: 600;
+      width: 29%;
+      cursor: pointer;
+      margin-left: 0px;
+    }
+    input#score {
+      margin-left: 10px;
+      width: 94%;
+    }
+    .form_field.training_duration {
+      margin-left: 10px;
+      width: 98%;
+    }
+    .form_field.professional_tranining {
+      margin-left: 10px;
+      width: 98%;
+    }
+
+    .form_field.training_year {
+      margin-left: 11px;
+      width: 98%;
+    }
+    .form_field.other_location2 {
+      margin-top: 10px;
+      margin-left: 9px;
+      width: 97%;
+    }
+    .form_field.labour_year {
+      margin-left: 2px;
+      width: 206px;
+    }
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 766px) {
+    .col-md-3.register-left {display: none;}
+
+    .box_shadow {
+      height: 1190px;
+      padding: 25px;
+    }
+
+    .formarea {
+      height: 1250px;
+    }
+  }
+
+
+  @media screen and (max-width: 990px) {
+    .register-left {
+      display: none;
+    }
+
+    .formarea {
+      height: 1250px;
+    }
+    .form_field.other_location2 {
+      margin-top: 10px;
+      margin-left: 9px;
+      width: 97%;
+    }
+
+    .box_shadow {
+      height: 1190px;
+      padding: 20px;
+    }
+    .form_title {
+      text-align: left;
+      margin-left: 10px;
+    }
+
+
+    .title {
+      margin-left: 0;
+    }
+
+    input.btnRegister {
+      margin-left: 0;
+      width: 25%;
+    }
+
+    select#dhaka_dist {
+      margin-left: 10px;
+    }
+
+    input#score {
+      margin-left: 10px;
+      width: 94%;
+    }
+
+    select {}
+
+    .form_field.training_year {
+      margin-left: 10px;
+      width: 98%;
+    }
+
+    .form_field.training_duration {
+      margin-left: 10px;
+    }
+
+    select {}
+
+    .form_field.qualification_year {
+      margin-left: 10px;
+      width: 98%;
+    }
+
+    select#result_qualification {
+      margin-left: 10px;
+      width: 93%;
+    }
+
+    select#study1 {
+      margin-left: 10px;
+    }
+
+    input#study2, input#study3 {
+      margin-left: 108px;
+      width: 85%;
+      margin-top: 35px;
+    }
+
+    select#skilled {
+      margin-left: 11px;
+    }
+
+    input#year1 {
+      margin-left: 11px;
+    }
+
+    input#year2 {
+      margin-left: 10px;
+    }
+
+    select#other_engineer {
+      width: 72%;
+      margin-left: -44px;
+    }
+
+    input#year3 {
+      width: 71%;
+      margin-left: -80px;
+    }
+
+    .form_field.labour {
+      margin-left: 26px;
+      width: 94%;
+    }
+
+    input#year4 {
+      margin-left: 23px;
+      width: 195%;
+    }
+
+    input#other {
+      width: 72%;
+      margin-left: -45px;
+    }
+
+    input#year5 {
+      width: 71%;
+      margin-left: -79px;
+    }
+  }
+
+
+</style>
