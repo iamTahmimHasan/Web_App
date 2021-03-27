@@ -115,18 +115,17 @@
     
    
     <div class="our_mission_right_inner">
-            <iframe width="306" height="200" src="../static/outsite/vedio/gsl_visa.mp4" frameborder="0" allowfullscreen></iframe> <br/> <br/>
-            <!--<iframe width="306" height="200" src="../static/outsite/vedio/uni_admission.mp4" frameborder="0" allowfullscreen></iframe> <br/>
-            <h2 align="center" style="color:blue;font-weight:bold;"><strong>Royal Bengal Tiger</strong></h2>
-             <p><a href="#"><img src="../static/outsite/css/images/a1.jpg" /></a> </p> -->
-             <br>
-            <p><a href="#"><img src="../static/outsite/css/images/tiger_img.jpg" /></a> </p>
+            {% for leftside_media in leftside_medias %}
+            <iframe width="306" height="200" src="{{leftside_media.external_video_Url}}" frameborder="0" allowfullscreen></iframe> <br/> <br/>
+            <br>
+            <p><a href="#"><img src="{{leftside_media.rightsidebaner1.url}}" /></a> </p>
             <br />
-            <p><a href="#"><img src="../static/outsite/css/images/wwf.jpg" /></a> </p>
+            <p><a href="#"><img src="{{leftside_media.rightsidebaner2.url}}" /></a> </p>
             <br />
             <b style="font-weight: bolder;color:red;line-height:18px;">
-              We shan't save all we should like to, but we shall save a great deal more than if we had never tried <span style="color:blue;"> -Sir Peter Scott</span>
+              {{leftside_media.quotes}} <span style="color:blue;">{{leftside_media.quotes_writter}}</span>
             </b>
+            {% endfor%}
             <div class="cl">&nbsp;</div>
 
             <div class="marquee_right_section">

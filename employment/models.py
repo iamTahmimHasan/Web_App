@@ -24,14 +24,13 @@ class HomePageSlider(models.Model):
         def __str__(self):
                         return self.id
                 
-
         class Meta:
                 verbose_name = 'Home Page Slider'
                 verbose_name_plural = 'Home Page Sliders'
 
 
 class HomePageLeftSide(models.Model):
-        External_video_Url = models.CharField(max_length=255, verbose_name="Upload Video Url Via (Youtube/Others)", blank=True, null=True)
+        external_video_Url = models.CharField(max_length=255, verbose_name="Upload Video Url Via (Youtube/Others)", blank=True, null=True)
         rightsidebaner1 = models.ImageField(upload_to='Banner', verbose_name="Right Side Baner 1", blank=True, null=True)
         rightsidebaner2 = models.ImageField(upload_to='Banner', verbose_name="Right Side Baner 2", blank=True, null=True)
         quotes = models.CharField(max_length=150, verbose_name="quotes", blank=True, null=True)
