@@ -42,5 +42,49 @@ def team(request):
 
 def form(request):
     return render(request, 'form.html')
-    
+
+
+
+def profile(request):
+    gsl_logos = CompanyDetails.objects.all()
+    return render(request, 'profile.html',{
+            'gsl_logos' : gsl_logos,
+
+    })
   
+def gallery(request):
+    gsl_logos = CompanyDetails.objects.all()
+    return render(request, 'gallery.html',{
+            'gsl_logos' : gsl_logos,
+
+    })
+
+def client(request):
+    gsl_logos = CompanyDetails.objects.all()
+    return render(request, 'client.html',{
+            'gsl_logos' : gsl_logos,
+
+    })
+
+
+def visa(request):
+    gsl_logos = CompanyDetails.objects.all()
+    return render(request, 'visa.html',{
+            'gsl_logos' : gsl_logos,
+
+    })
+
+def visa_success(request):
+    gsl_logos = CompanyDetails.objects.all()
+    return render(request, 'visa_success.html',{
+            'gsl_logos' : gsl_logos,
+
+    })
+
+
+def contact(request):
+    gsl_logos = CompanyDetails.objects.all()
+    return render(request, 'contact.html',{
+            'gsl_logos' : gsl_logos,
+
+    })

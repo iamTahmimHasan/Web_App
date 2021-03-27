@@ -1,0 +1,196 @@
+{% extends "ebase.html" %}
+{% load static %}
+{% static "images" as baseUrl %}
+
+
+
+{% block content %}
+<link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+<style type="text/css">
+        #gallery
+        {
+            background-color:#FFFFFF;
+			padding:20px 0px 30px 20px;
+            width: 100%;
+        }
+        #gallery ul
+        {
+            list-style: none;
+        }
+        #gallery ul li
+        {
+            display: inline;
+        }
+        #gallery ul img
+        {
+            border: 5px solid #C0C0C0;
+            border-width: 5px 5px 20px;
+            margin:0 0 10px 0px;
+        }
+        #gallery ul a:hover img
+        {
+            border: 5px solid #696969;
+            border-width: 5px 5px 20px;
+            color: #fff;
+        }
+        #gallery ul a:hover
+        {
+            color: red;
+        }
+        
+        #training_vedio{
+            background-color:#FFFFFF;
+            padding:20px 0px 30px 0px;
+            width: 100%;
+            height: auto;
+            float: left;
+        }
+        #training_vedio ul{margin:0px; padding: 0px;}
+        #training_vedio ul li{float: left;margin:0px 20px 0px 20px;list-style: none;background:#000;}
+        .shell h2{font-size:22px;padding: 0px 0px 10px 0px;}
+    </style>
+    
+<!-- Main -->
+<div class="shell" style="border-top:#003366 10px solid;"></div>
+<div id="main">
+    
+    <div class="shell">
+        <h2 style="font-weight: bolder;color:#0000FF;text-align:center;">Welding & Meat Process Training</h2>
+            <div id="gallery">
+                <h3 class="p1"></h3>
+                <ul>
+                    <?php  foreach($galleryinfo as $v){?>
+                    <li><a href="<?php echo base_url('uploads/company_logo/'.$v->images);?>" > <img src="<?php echo base_url('uploads/company_logo/'.$v->images);?>" width="150" height="150" alt="" /> </a></li>
+                    <?php }?>
+                </ul>
+            </div>
+            <br />
+    </div>
+    
+    <div class="shell">
+
+        <h2 style="font-weight: bolder;color:#0000FF;text-align:center;">Welding & Grinding Test Vedio</h2>
+            <div id="training_vedio">
+                
+                <ul>
+                    <li><iframe width="284" height="300" src="outsite/vedio/Welding_1.mp4" frameborder="0" allowfullscreen></iframe></li>
+                </ul>
+
+                <ul>
+                    <li><iframe width="284" height="300" src="outsite/vedio/Welding_2.mp4" frameborder="0" allowfullscreen></iframe></li>
+                </ul>
+
+                <ul>
+                    <li><iframe width="284" height="300" src="outsite/vedio/Welding_3.mp4" frameborder="0" allowfullscreen></iframe></li>
+                </ul>
+
+            </div>
+    </div>
+    
+    <div class="shell">
+
+        <h2 style="font-weight: bolder;color:#0000FF;text-align:center;">Chicken Training Vedio</h2>
+            <div id="training_vedio">
+                
+                <ul>
+                    <li><iframe width="284" height="300" src="outsite/vedio/chicken_1.mp4" frameborder="0" allowfullscreen></iframe></li>
+                </ul>
+
+                <ul>
+                    <li><iframe width="284" height="300" src="outsite/vedio/chicken_2.MP4" frameborder="0" allowfullscreen></iframe></li>
+                </ul>
+
+                <ul>
+                    <li><iframe width="284" height="300" src="outsite/vedio/chicken_3.MP4" frameborder="0" allowfullscreen></iframe></li>
+                </ul>
+
+            </div>
+    </div>
+    
+    <div class="shell">
+        <h2 style="font-weight: bolder;color:#0000FF;text-align:center;">Seminar </h2>
+            <div id="gallery">
+                <h3 class="p1"></h3>
+                    <ul>
+                        <li><a href="<?php echo base_url('uploads/Admission/1.jpg');?>" ><img src="<?php echo base_url('uploads/Admission/1.jpg');?>" width="150" height="150" alt="" /> </a></li>
+                        <li><a href="<?php echo base_url('uploads/Admission/2.jpg');?>" > <img src="<?php echo base_url('uploads/Admission/2.jpg');?>" width="150" height="150" alt="" /> </a></li>
+                        <li><a href="<?php echo base_url('uploads/Admission/3.jpg');?>" > <img src="<?php echo base_url('uploads/Admission/3.jpg');?>" width="150" height="150" alt="" /> </a></li>
+                        <li><a href="<?php echo base_url('uploads/Admission/5.jpg');?>" > <img src="<?php echo base_url('uploads/Admission/5.jpg');?>" width="150" height="150" alt="" /> </a></li>
+                        <li><a href="<?php echo base_url('uploads/Tourism/S8.jpg');?>" > <img src="<?php echo base_url('uploads/Tourism/S8.jpg');?>" width="150" height="150" alt="" /></a></li>
+                        
+                        <li><a href="<?php echo base_url('uploads/Tourism/st4.jpg');?>" > <img src="<?php echo base_url('uploads/Tourism/st4.jpg');?>" width="150" height="150" alt="" /></a></li>
+
+                    </ul>
+            </div>
+        <br />
+    </div>
+    
+     <div class="shell">
+            <h2 style="font-weight: bolder;color:#0000FF;text-align:center;">Business meeting with foreign Employers </h2>
+                <div id="gallery">
+                    <h3 class="p1"></h3>
+                        <ul>
+                           <!-- <li><a href="<?php //echo base_url('uploads/Tourism/1.jpg');?>" > <img src="<?php //echo base_url('uploads/Tourism/1.jpg');?>" width="150" height="150" alt="" /> </a></li> -->
+                           <li><a href="<?php echo base_url('uploads/Tourism/M1.JPG');?>" title="00" > <img src="<?php echo base_url('uploads/Tourism/M1.JPG');?>" width="150" height="150" alt="" /> </a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/M2.JPG');?>" title="0"> <img src="<?php echo base_url('uploads/Tourism/M2.JPG');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/M3.jpg');?>" title="1"> <img src="<?php echo base_url('uploads/Tourism/M3.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/M4.jpg');?>" title="2"> <img src="<?php echo base_url('uploads/Tourism/M4.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/T10.JPG');?>" title="3"> <img src="<?php echo base_url('uploads/Tourism/T10.JPG');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/T12.jpg');?>"  title="4"> <img src="<?php echo base_url('uploads/Tourism/T12.jpg');?>" width="150" height="150" alt="" /></a></li>
+                            <li><a href="<?php echo base_url('uploads/Tourism/5M.jpg');?>" title="5"> <img src="<?php echo base_url('uploads/Tourism/5M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                            <li><a href="<?php echo base_url('uploads/Tourism/6M.jpg');?>" title="6"> <img src="<?php echo base_url('uploads/Tourism/6M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/7M.jpg');?>" title="7"> <img src="<?php echo base_url('uploads/Tourism/7M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/8M.jpg');?>" title="8"> <img src="<?php echo base_url('uploads/Tourism/8M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/9M.jpg');?>" title="9"> <img src="<?php echo base_url('uploads/Tourism/9M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/10M.jpg');?>" title="10"> <img src="<?php echo base_url('uploads/Tourism/10M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/11M.jpg');?>" title="11"> <img src="<?php echo base_url('uploads/Tourism/11M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/12M.jpg');?>" title="12"> <img src="<?php echo base_url('uploads/Tourism/12M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/13M.jpg');?>" title="13"> <img src="<?php echo base_url('uploads/Tourism/13M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/14M.jpg');?>" title="14"> <img src="<?php echo base_url('uploads/Tourism/14M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/15M.jpg');?>" title="15"> <img src="<?php echo base_url('uploads/Tourism/15M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/16M.jpg');?>" title="16"> <img src="<?php echo base_url('uploads/Tourism/16M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/17M.jpg');?>" title="17"> <img src="<?php echo base_url('uploads/Tourism/17M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/18M.jpg');?>" title="18"> <img src="<?php echo base_url('uploads/Tourism/18M.jpg');?>" width="150" height="150" alt="" /> </a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/19M.jpg');?>" title="19"> <img src="<?php echo base_url('uploads/Tourism/19M.jpg');?>" width="150" height="150" alt="" /></a></li>
+                           <li><a href="<?php echo base_url('uploads/Tourism/20M.jpg');?>" title="20"> <img src="<?php echo base_url('uploads/Tourism/20M.jpg');?>" width="150" height="150" alt="" / title="20"></a></li>
+                           
+                        </ul>
+                </div>
+            <br />
+    </div>
+    
+    <div class="shell">
+              <h2 style="font-weight: bolder;color:#0000FF;text-align: center;"> Tourism And Students </h2>
+                  <div id="gallery">
+                        <h3 class="p1"></h3>
+                            <ul>
+
+                               <li><a href="<?php echo base_url('uploads/Tourism/1.jpg');?>" > <img class="demo cursor" src="<?php echo base_url('uploads/Tourism/1.jpg');?>" width="150" height="150" alt="" onclick="currentSlide(1)" /> </a></li>
+
+                               <li><a href="<?php echo base_url('uploads/Tourism/T17.JPG');?>" > <img class="demo cursor" src="<?php echo base_url('uploads/Tourism/T17.JPG');?>" width="150" height="150" alt="" onclick="currentSlide(1)" /> </a></li>
+
+                               <li><a href="<?php echo base_url('uploads/Tourism/Ss1.JPG');?>" > <img class="demo cursor" src="<?php echo base_url('uploads/Tourism/Ss1.JPG');?>" width="150" height="150" alt="" onclick="currentSlide(1)" /> </a></li>
+                                
+                                 <li><a href="<?php echo base_url('uploads/Tourism/tou13.jpg');?>" > <img class="demo cursor" src="<?php echo base_url('uploads/Tourism/tou13.jpg');?>" width="150" height="150" alt="" onclick="currentSlide(1)" /> </a></li>
+
+                               <li><a href="<?php echo base_url('uploads/Tourism/touri12.jpg');?>" > <img class="demo cursor" src="<?php echo base_url('uploads/Tourism/touri12.jpg');?>" width="150" height="150" alt="" onclick="currentSlide(1)" /> </a></li>
+
+                               <li><a href="<?php echo base_url('uploads/Tourism/touri15.jpg');?>" > <img class="demo cursor" src="<?php echo base_url('uploads/Tourism/touri15.jpg');?>" width="150" height="150" alt="" onclick="currentSlide(1)" /> </a></li>
+                               
+                            </ul>
+                  </div>
+
+    </div>
+  
+</div>
+<!-- End Main -->
+
+{% endblock %}
+
+

@@ -1,0 +1,302 @@
+{% extends "ebase.html" %}
+{% load static %}
+{% static "images" as baseUrl %}
+
+
+
+{% block content %}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<script type="text/javascript">
+		
+	function ValidateContactForm()
+{
+    var from_name = document.ContactForm.from_name;
+    var project_name = document.ContactForm.project_name;
+	var project_type= document.ContactForm.project_type;
+    var contact_number = document.ContactForm.contact_number;
+    var email= document.ContactForm.email;
+	var address= document.ContactForm.address;
+   var resume = document.ContactForm.resume;
+
+	
+	
+    if (from_name.value == "")
+    {
+	
+        window.alert("Please enter your name.");
+        from_name.focus();
+        return false;
+    }
+    
+    if (project_name.value == "")
+    {
+        window.alert("Please enter your jobtitle.");
+        project_name.focus();
+        return false;
+    }
+	if (project_type.value == "")
+    {
+	
+        window.alert("Please enter your sector.");
+        project_type.focus();
+        return false;
+    }
+    if (contact_number.value == "")
+    {
+	
+        window.alert("Please enter your mobile number.");
+        contact_number.focus();
+        return false;
+    }
+     if (email.value == "")
+    {
+	
+        window.alert("Please enter your email.");
+        email.focus();
+        return false;
+    }
+	
+	
+	  if (address.value == "")
+    {
+	
+        window.alert("Please enter your address.");
+        address.focus();
+        return false;
+    }
+	
+	
+	
+	  if (resume.value == "")
+    {
+	
+        window.alert("Please enter your resume.");
+        resume.focus();
+        return false;
+    }
+      if (submit.value == "")
+    {
+	
+        window.alert("message send successfully.");
+        submit.focus();
+        return false;
+    }
+    return true;
+}
+
+	
+
+</script><!-- End Header -->
+<div class="shell" style="border-top:#003366 10px solid;"></div>
+<div id="main">
+	<div class="shell">
+    <h2 style="text-align:center;color:blue;font-size: 19px;font-weight: 700;font-family: " lucida="" sans",="" arial,="" sans-serif;}">Our Clients</h2>  
+    <div class="row"> 
+         
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client13.png');?>" />
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client19.png');?>" />
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client1.png');?>"  />
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client17.png');?>"  />
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client9.png');?>"  />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client10.png');?>"  />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client11.png');?>"  />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client12.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client14.png');?>"/>
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client15.png');?>"  />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client16.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client2.png');?>"  />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client18.png');?>"  />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client3.png');?>"  />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client4.png');?>" />
+           </div>
+        </div>
+
+         <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client5.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client6.png');?>"  />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client7.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client8.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client21.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client22.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client23.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client24.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client23.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client24.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client25.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client26.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client27.png');?>" />
+           </div>
+        </div>
+       
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client30.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client31.png');?>" />
+           </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client32.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client33.png');?>" />
+           </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="client_wrapper">
+                <img src="<?php echo base_url('outsite/css/images/client/client34.png');?>" />
+           </div>
+        </div>
+       
+    </div>
+
+ 
+</div>
+	</div>
+    </div>
+    {% endblock %}

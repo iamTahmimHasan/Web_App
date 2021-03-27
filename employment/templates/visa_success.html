@@ -1,0 +1,133 @@
+{% extends "ebase.html" %}
+{% load static %}
+{% static "images" as baseUrl %}
+
+
+
+{% block content %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<style type="text/css">
+        #gallery
+        {
+            background-color:#FFFFFF;
+            padding:0px 0px 30px 0px;
+            width: 100%;
+        }
+
+        #gallery ul
+        {
+            list-style: none;
+        }
+
+        #gallery ul li
+        {
+            margin: 0 8px 8px 0px;
+            float: left;
+        }
+
+        #gallery ul img
+        {
+            border: 5px solid #C0C0C0;
+            border-width: 5px 5px 20px;
+            margin: 0 0 10px 0px;
+        }
+
+        #gallery ul a:hover img
+        {
+            border: 5px solid #696969;
+            border-width: 5px 5px 20px;
+            color: #fff;
+        }
+
+        #gallery ul a:hover
+        {
+            color: red;
+        }
+
+        #training_vedio{
+            background-color:#FFFFFF;
+            padding:20px 0px 30px 0px;
+            width: 100%;
+            height: auto;
+            float: left;
+        }
+
+         #training_vedio ul{margin:0px; padding: 0px;}
+         #training_vedio ul li{float: left;margin:0 20px 0px 20px;list-style: none;float: left;}
+        .shell h2{font-size:22px;padding: 0px 0px 10px 0px;}
+        .rotateimg180 {
+
+            -webkit-transform:rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+    </style>
+
+<!-- End Header -->
+
+<div class="shell" style="border-top:#003366 10px solid;"></div>
+
+<body>
+
+    <div id="main">
+        
+        <div class="shell">
+            <h2 style="text-align:center;color:blue;font-size: 19px;font-weight: 700;font-family: "Lucida Sans", Arial, sans-serif;}"> POLAND VISA SUCCESS </h2> 
+     
+            <!--<iframe src="<?php //echo base_url('uploads/profile/company profile.pdf');?>" width="100%" height="800px"></iframe> --> 
+
+            <table class="table table-bordered table-hover">
+
+                <tbody style="font-weight: bolder; font-family:SutonnyMJ">
+                        <div id="gallery">
+                            <h3 class="p1"></h3>
+                                <ul>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/poland_1.jpg');?>" ><img src="<?php echo base_url('uploads/visa_success/poland_1.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/poland_2.jpg');?>" > <img src="<?php echo base_url('uploads/visa_success/poland_2.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/poland_3.jpg');?>" > <img src="<?php echo base_url('uploads/visa_success/poland_3.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/poland_4.jpg');?>" > <img src="<?php echo base_url('uploads/visa_success/poland_4.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                </ul>
+                                
+                                <h2 style="text-align:center;color:blue;font-size: 19px;font-weight: 700;font-family: "Lucida Sans", Arial, sans-serif;}"> CROATIA VISA SUCCESS </h2>
+
+                                <ul>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/croatia_1.jpg');?>" ><img src="<?php echo base_url('uploads/visa_success/croatia_1.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/croatia_2.jpg');?>" > <img src="<?php echo base_url('uploads/visa_success/croatia_2.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/croatia_3.jpg');?>" > <img src="<?php echo base_url('uploads/visa_success/croatia_3.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/croatia_4.jpg');?>" > <img src="<?php echo base_url('uploads/visa_success/croatia_4.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                    
+                                   
+                                </ul>
+                                
+                                
+                                <h2 style="text-align:center;color:blue;font-size: 19px;font-weight: 700;font-family: "Lucida Sans", Arial, sans-serif;}"> MALTA VISA SUCCESS </h2>
+
+                                <ul>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/malta_1.jpg');?>" ><img src="<?php echo base_url('uploads/visa_success/malta_1.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/malta_2.jpg');?>" > <img src="<?php echo base_url('uploads/visa_success/malta_2.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/malta_3.jpg');?>" > <img src="<?php echo base_url('uploads/visa_success/malta_3.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/malta_4.jpg');?>" > <img src="<?php echo base_url('uploads/visa_success/malta_4.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/malta_5.jpg');?>" > <img src="<?php echo base_url('uploads/visa_success/malta_5.jpg');?>" width="238" height="370" alt="" class="rotateimg180" /> </a></li>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/malta_6.jpg');?>" > <img src="<?php echo base_url('uploads/visa_success/malta_6.jpg');?>" width="238" height="370" alt=""  /> </a></li>
+                                    <li><a href="<?php echo base_url('uploads/visa_success/malta_7.jpg');?>" > <img src="<?php echo base_url('uploads/visa_success/malta_7.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                   
+                                    <li><a href="<?php echo base_url('uploads/visa_success/malta_8.jpg');?>" > <img src="<?php echo base_url('uploads/visa_success/malta_8.jpg');?>" width="238" height="370" alt="" /> </a></li>
+                                </ul>
+                                
+                        </div>
+                </tbody>
+
+            </table>
+
+          
+        </div>
+    </div>
+
+</body>
+
+
+
+
+{% endblock %}
