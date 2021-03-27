@@ -21,8 +21,7 @@ class HomePageSlider(models.Model):
         slider_image = models.ImageField(upload_to='slider_image', verbose_name="Slider Image")
 
 
-        def __str__(self):
-                        return self.id
+        
                 
         class Meta:
                 verbose_name = 'Home Page Slider'
