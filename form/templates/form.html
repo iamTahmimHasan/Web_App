@@ -1061,11 +1061,11 @@
 </div>
 </div>
 
-<script src="build/js/intlTelInput.js"></script>
+<script src="{% static 'build/js/intlTelInput.js' %}"></script>
 <script>
   var input = document.querySelector("#phone");
   window.intlTelInput(input, {
-    utilsScript: "build/js/utils.js",
+    utilsScript: "{% static 'build/js/utils.js' %}",
   });
 </script>
 
@@ -1375,14 +1375,14 @@
   </script>
 </script>
 
-<script src="build/js/jquery-3.2.1.slim.min.js"></script>
-<script src="build/js/bootstrap.min.js"></script>
-<script src="build/js/fontawesome.min.js"></script>
-<script src="build/js/fontawesome.min.js"></script>
-<script src="build/js/fontawesome.min.js"></script>
-<script src="build/js/popper.min.js"></script>
-<script src="build/js/owl.carousel.min.js"></script>
-<script src="build/js/main.js"></script>
+<script src="{% static 'build/js/jquery-3.2.1.slim.min.js' %}"></script>
+<script src="{% static 'build/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'build/js/fontawesome.min.js' %}"></script>
+<script src="{% static 'build/js/fontawesome.min.js' %}"></script>
+<script src="{% static 'build/js/fontawesome.min.js' %}"></script>
+<script src="{% static 'build/js/popper.min.js' %}"></script>
+<script src="{% static 'build/js/owl.carousel.min.js' %}"></script>
+<script src="{% static 'build/js/main.js' %}"></script>
 </body>
 
 </html>

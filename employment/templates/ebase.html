@@ -22,10 +22,14 @@
 <div id="header">
   <div class="shell">
     <div class="logo_style">
-      {% for gsl_logo in gsl_logos %}
-        <h1 align="center" style="padding-top:20px;"><a href="http://www.globalstar.com.bd" > 
-          <img alt="" title="" src="{{gsl_logo.company_logo.url}}" /> </a></h1> <br/>
-          {% endfor %} 
+
+          {% for gsl_logo in gsl_logos %}
+          <h1 align="left" style="padding-top:20px;"><a href="http://www.globalstar.com.bd" > 
+            <img alt="" title="" src="{{gsl_logo.company_logo.url}}" /> </a></h1> <br/>
+            {% endfor %} 
+  
+      
+      
     </div>
     <div id="navigation" >
       <ul>
