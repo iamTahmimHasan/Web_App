@@ -145,6 +145,7 @@ STATICFILES_DIRS =[
     os.path.join(BASE_DIR,'study/static'),
     os.path.join(BASE_DIR,'employment/static'),
     os.path.join(BASE_DIR,'form/static'),
+    os.path.join(BASE_DIR,'admission/static'),
 ]
 STATIC_ROOT = os.path.join(BASE_DIR,'assets')
 MEDIA_URL = '/media/'

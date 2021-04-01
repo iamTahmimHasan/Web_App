@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+    .header-title {
+        font-size: 30px;
+        font-weight: bold;
+        color: #000;
+        text-align: center;
+        margin-top: -45px;
+        margin-left: 45px;
+    }
+    .year {
+        width: 100%;
+        margin-left: 0px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    
+  }
+  
+  
+  
+  @media screen and (max-width: 766px) {
+.header-title {
+font-size: 30px;
+font-weight: bold;
+color: #000;
+margin-top: -45px;
+margin-left: 110px;
+}
+}
+@media screen and (max-width: 990px) {
+.header-title {
+font-size: 30px;
+font-weight: bold;
+color: #000;
+margin-top: -44px;
+}
+}

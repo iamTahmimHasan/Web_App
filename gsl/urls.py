@@ -30,3 +30,8 @@ urlpatterns = [
 ]
 
 urlpatterns = urlpatterns + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+admin.site.index_title = "GSL Adminstrator"
+admin.site.index_header = "Global Star Admin"
+admin.site.site_title = "Global Star Admin"
+admin.site.site_header = "Global Star Admin"
