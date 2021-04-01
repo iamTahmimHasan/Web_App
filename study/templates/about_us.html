@@ -1,0 +1,341 @@
+{% extends 'base.html' %} 
+{% load static %}
+{% static "images" as baseUrl %}
+
+{% block content %} 
+<style>
+
+#userType {width:30%;height: auto;float: left;font-weight: bold;}
+h3#userType:hover + span#typePrompt {display: inline; }
+h3#userType:focus + span#typePrompt {display: inline; }
+</style>
+<link href="{% static 'resource/nextadmission/css/aboutus.css' %}" rel="stylesheet">
+<br/>
+<br/>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="cont-wrap">
+        <div class="left">
+          <div class="left-content">
+            <div class="boxed">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="p-title">
+                    <h3>About us</h3>
+                  </div>
+                  <blockquote> <small>nextadmission.com is the first and leading education consultant site in the country. Eight young business and IT professional backed by strong command over e-business and in-depth understanding of the needs of education information  seekers a in the country's context started this venture on July 2000.</small><br>
+                    <h4>The vision of the company is to try bringing Internet technology in the mainstream business and economic life of the society.</h4>
+                    <br>
+                    <small>Our web-site aims to explore maximum benefits of the Internet. We believe our service will help the education information seekers manage their career more efficiently. This site will also help student solve many of the problems associated with traditional recruiting methods and allow them to save time and money. </small><br>
+                    <small>Right after its launching, the site has been able to attract the Internet users in the country. The site regularly updates Education Information (on average more than 2500 valid job news are placed at any point of time at the site), provides facility to the education information seekers for posting resume and online university application. The site has also been able to get good response from a large number of organizations in the country who use online job advertisement facility, online CV bank access and online application receiving and processing facility of www.nextadmission.com. Till now, more than 10,000  employers in the country have recruited more than 3,50,000 student at different levels for their organizations through nextadmission.com service.</small>
+                    
+                  </blockquote>
+                </div>
+              </div>
+              <div class="einf-wrap">
+                <table class="bdj">
+                  <thead>
+                    <tr>
+                      <th colspan="2">Company Management</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td colspan="2">
+                          <div class="emp-t e-res">
+                                <div class="ename e-title">Obaidur Rahman<br>
+                                   <span> Managing Director </span></div>
+                                   <div class="ename e-title">Mizanur Rahman<br>
+                                   <span> Chairman</span></div>
+                          </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="einf-wrap">
+                <table class="bdj">
+                  <thead>
+                    <tr>
+                      <th colspan="2">Technical Team (IT)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                    <td colspan="2"><div class="emp-t e-res">
+                          <div class="ename e-title">Babor Rahman Zibon<br>
+                            <span>Sr. IT Officer</span></div>
+                        
+                        </div>
+                          <div class="emp-t e-res">
+                              <div class="ename e-title">&nbsp; <br>
+                                  <span>&nbsp;</span></div>
+
+                          </div>
+                        
+                        <br>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="einf-wrap">
+                <table class="bdj">
+                  <thead>
+                    <tr>
+                      <th colspan="2">Administration Department</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                       <td colspan="2"><div class="emp-t e-res">
+                          <div class="ename e-title">Asrafuzzaman (Khokan)<br>
+                            <span>General Manager </span></div>
+                          <div class="e-deg e-title">Romana Akter Remi<br>
+                            <span>HR & Admin Officer</span></div>
+                        </div>
+                        <div class="emp-t e-res">
+                          <div class="ename e-title">Mosfiqur Rahman Sohel <br>
+                            <span>Admission Officer </span></div>
+                          <!-- <div class="ename e-title">Nusrat Jahan <br>
+                            <span>Admin Officer </span></div> -->
+                        </div>
+                        
+                        </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="einf-wrap">
+                <table class="bdj">
+                  <thead>
+                    <tr>
+                      <th colspan="2">Reservation Department</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                       <td colspan="2"><div class="emp-t e-res">
+                          <div class="ename e-title">Md Isha Eshan<br>
+                            <span>Reservation Manager </span></div>
+                          <!--<div class="e-deg e-title">Romana Akter Remi<br>
+                            <span>HR & Admin Officer </span></div> -->
+                        </div>
+                        <div class="emp-t e-res">
+                          <!-- <div class="ename e-title">Mosfiqur Rahman Sohel <br>
+                            <span>Admission Officer </span></div>
+                          <div class="ename e-title">Nusrat Jahan <br>
+                            <span>Admin Officer </span></div> -->
+                        </div>
+                        
+                        </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="einf-wrap">
+                <table class="bdj">
+                  <thead>
+                    <tr>
+                      <th colspan="2">Counselling Team</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td colspan="2"><div class="emp-t e-res">
+                          <div class="ename e-title">Pori Begum<br>
+                            <span>Head Counselor </span></div>
+                          <!--<div class="e-deg e-title">Shamme Marufa Golshan<br>
+                            <span>Sr. Counselor </span></div> -->
+                        </div>
+                        <div class="emp-t e-res">
+                          <div class="ename e-title">&nbsp; <br>
+                            <span>&nbsp; </span></div>
+                          
+                        </div>
+                        
+                        </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="einf-wrap">
+                <table class="bdj">
+                  <thead>
+                    <tr>
+                      <th colspan="2">Marketing Team</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td colspan="2"><div class="emp-t e-res">
+                          
+                        <div class="e-deg e-title">M A Kashem <br>
+                            <span>Marketing Executive</span></div>
+                             <div class="ename e-title">Ishak Robin<br>
+                            <span>Marketing Executive</span></div>
+                        </div>
+                        
+                     
+                        
+                        <div class="emp-t e-res">
+                          <div class="ename e-title"> <br>
+                            <span> </span></div>
+                          <div class="e-deg e-title"> <br>
+                            <span></span></div>
+                        </div></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+			  
+			  
+			  
+			  <div class="einf-wrap">
+                <table class="bdj">
+                  <thead>
+                    <tr>
+                      <th colspan="2">Office Messenger</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td colspan="2"><div class="emp-t e-res">
+                          
+                          <div class="e-deg e-title">Yeasin<br>
+                            <span>Office Assistant</span></div>
+                           <div class="e-deg e-title">&nbsp;<br>
+                            <span>&nbsp;</span></div>
+                        </div>
+                        <div class="emp-t e-res">
+
+                          <div class="ename e-title">&nbsp;<br>
+                            <span>&nbsp;</span></div>
+                          
+                        </div>
+                        
+                     
+                        <div class="emp-t e-res">
+                          <div class="ename e-title"> <br>
+                            <span> </span></div>
+                          <div class="e-deg e-title"> <br>
+                            <span></span></div>
+                        </div></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              
+              
+              
+              
+              
+              
+              
+                <div class="row">
+                <div class="col-sm-6">
+                  <div class="a-title">
+                    <h4>Dhaka Office  </h4>
+                  </div>
+                  <p class="c-link">31,Malek Tower (3rd floor- 2nd lift) <br>
+                     Farmgate, Dhaka,<br>
+                     Bangladesh<br>
+                     Mobile: +880 1911 342308<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+					           +880 1780 300059<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                    +88 01708524200-06<br>
+					  Email: smtbangladesh@yahoo.com</p>
+                </div>
+                <div class="col-sm-6">
+                  <div class="a-title">
+                    <h4>Chittagong Office  </h4>
+                  </div>
+                  <p class="c-link">Walikhan Mansion <br>
+                    603 SK Mujib Road (3rd floor)<br>
+                     Agrabad, Choumuhuni Moar,<br>
+                     Chittagong, Bangladesh<br>
+					  Mobile: +880 1911 342308<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+					 +880 1715 015972<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+             +88 01708524200-06<br/>
+					  Email: globalstarltd@gmail.com</p>
+                </div>
+				
+				
+				
+              </div>
+			    &nbsp;
+			    <div class="row">
+                <div class="col-sm-6">
+                  <div class="a-title">
+                    <h4>Khulna Office  </h4>
+                  </div>
+                   <p class="c-link">Holding No. Old-95 <br>
+                      Hazi Ismail Road Sheikh para,(Behind Janakontho Office) KDA Avenu by lane,
+                     Khulna,Bangladesh<br>
+                     Mobile:&nbsp;&nbsp;  +880 1911 342308<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+					 +880 1780 300059<br>
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+             +88 01708524200-06<br/>
+				
+                </div>
+               <div class="col-sm-6">
+                  <!--<div class="a-title">
+                    <h4>Brahmanbaria Office  </h4>
+                  </div>
+                  <p class="c-link">Walikhan Mansion <br>
+                    603 SK Mujib Road (3rd floor)<br>
+                     Agrabad, Choumuhuni Moar,<br>
+                     Chittagong, Bangladesh<br>
+					  Mobile: +880 1911 342308<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+					 +880 1715 015972<br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+					   +88 01708524200-06<br/> -->
+                </div>
+				
+				
+				
+              </div>
+			  
+              <div class="row">
+                <hr >
+                <div class="col-sm-12">
+                  <div class="s-title">  For Technical Support</div>
+                  <p class="c-link"> Email: <a href="mailto:it@nextadmission.com">it@nextadmission.com</a><br>
+                    <strong>Mobile: </strong> 01715015972 ; 01911342308 ; 01820089541. +88 01708524200-06 </p>
+                  <hr>
+                </div>
+                <div class="col-sm-12">
+                  <div class="s-title">  For  Support</div>
+                  <p class="c-link"> Email: <a href="mailto:info@nextadmission.com">info@nextadmission.com</a><br>
+				  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <a href="mailto:admission@nextadmission.com">admission@nextadmission.com</a><br>
+                    <strong>Mobile: </strong> 01715015972 ; 01911342308, +88 01708524200-06</p>
+                  <hr>
+                </div>
+                
+                
+                
+              </div>
+			  
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div style="height:600px; width:160px; overflow:hidden;border:2px solid #000000;"> Your Ad Here </div>
+          <div style="height:600px; width:160px; border:2px solid #000000; overflow:hidden; margin-top:10px;"> Your Ad Here </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+{% endblock %}

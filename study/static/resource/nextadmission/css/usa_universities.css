@@ -1,0 +1,18 @@
+
+/**********************************************
+*
+*
+*
+* All USA UNIVERSITIES
+*
+*
+*
+***********************************************/
+
+@font-face {
+    font-family: 'SolaimanLipi'; /*a name to be used later*/
+    src: url('../fonts/SolaimanLipi.ttf'); /*URL to font*/
+}
+
+
+.study_in_europe_body_section h3{text-align: center;padding: 15px 0px 20px 0px;}

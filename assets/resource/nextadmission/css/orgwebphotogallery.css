@@ -1,0 +1,98 @@
+
+/**********************
+*
+*
+* Organization Photo Gallery Page
+*
+*
+*
+**********************/
+
+.organization_banner_photo_section {
+      width: 99.9%;
+    height: auto;
+    float: left;
+    border: 1px solid #4496EA;
+    padding: 10px 0px 0px 10px;
+}
+
+.addwise_company_details_page{width: 100%;height: auto;float: left;padding:30px 0px 30px 0px;}
+.organization_banner_content_section{width: 100%;height: auto;float: left;border: 1px solid #4496EA;padding:10px;}
+.organization_banner_content_inner_section{padding: 0px 0px 20px 0px;width: 100%;overflow: hidden;}
+
+
+.organization_banner_photo_inner_section {
+    padding: 0px 0px 0px 0px;
+    width: 97%;
+   /* overflow: hidden;*/
+}
+
+
+/* gallery display */
+.photos {
+  display: block;
+}
+
+.photos ul {
+  list-style: none;
+
+}
+
+.photos ul li { display: inline; }
+
+.photos ul li a {
+  display: block;
+  float: left;
+  padding: 0px;
+  margin-right: 10px;
+  margin-bottom: 7px;
+  opacity: 0.75;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.photos ul li a:hover {
+  opacity: 1.0;
+}
+
+.photos ul li a img {
+  border: 6px solid #e1d9ec;
+  width: 360px;
+}
+
+/* footer */
+#credits {
+  display: block;
+  padding: 5px 6px;
+  text-align: center;
+}
+
+#credits p {
+  font-size: 1.2em;
+  color: #666;
+  text-shadow: 0 1px 0 #fff;
+}
+
+#credits p a {
+  color: #798fad;
+}
+#credits p a:hover {
+  color: #4d6b94;
+}
+
+/* CSS Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+
+.clearfix { zoom: 1; } /* IE 6/7 */
+
+
+/* lightbox hacks */
+
+#lightbox-container-image-data-box {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+#photo_padding_remove{margin: 0px;padding: 0px;}

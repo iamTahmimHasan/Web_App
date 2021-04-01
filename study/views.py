@@ -11,5 +11,8 @@ def home(request):
 def base(request):
     return render(request, 'base.html')
 
-def contact(request):
-    return render(request, 'contact.html')
+def about_us(request):
+    return render(request, 'about_us.html')
+
+def faq(request):
+    return render(request, 'faq.html')

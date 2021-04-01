@@ -1,0 +1,142 @@
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-family: 'Montserratwc',sans-serif;
+}
+.professional_training_wrapper{width:100%;height: 530px;background: #43A047;}
+.professional_training_inner_wrapper{width:100%;height: 500px;background:#ffffff;margin:15px 0px 0px 0px;border-radius: 4px; -moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;-webkit-border-radius: 4px;}
+.professional_training_left_section{width:100%;height: 500px;float: left;background: #2d6c30;border-radius: 4px 0px 0px 4px;}
+.professional_training_left_section ul{width:100%;margin: 0px;padding: 0px;}
+.professional_training_left_section ul li{}
+.professional_training_left_section ul li:last-child a{border-bottom: 0px solid #265A28;}
+.professional_training_left_section ul li a{width: 262px;height: auto;float: left;color: #ffffff;padding: 10px 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #265A28;}
+.nav-tabs>li.active1>a, .nav-tabs>li.active1>a:focus, .nav-tabs>li.active1>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #265a28;
+    border: 0px solid #53A857;
+    width: 262px;
+    border-radius: 4px 0px 0px 0px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #fff;
+    cursor: default;
+    background-color: #265a28;
+    border: 0px solid #53A857;
+  
+    border-radius: 4px 0px 0px 0px;
+}
+
+
+#myTab > li.active1 {
+background: red;
+}
+
+.nav-tabs>li>a:hover {
+     border-bottom: 1px solid #265A28;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 0px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+/*.nav-tabs {
+    border-bottom: 0px solid #53A857;
+}*/
+
+.professional_training_right_section{padding: 10px 10px 10px 0px;}
+.web_development_wrapper{width:100%;height: auto;float: left;padding: 0 15px 0px 0px;}
+.web_development_left_top_header{width:160px;height: auto;float: left;}
+.web_development_course_fornd{width:145px;height: auto;float: left;background: #0DFF8B;border-radius: 4px;padding: 5px 7px;}
+.course_found_number{width: 20px;height: 20px;float: left;background: #fff;border-radius: 100px;}
+.course_found_number p{text-align:center;line-height: 20px;
+    font-weight: 900;font-family: 'Montserratwc',sans-serif;}
+.course_found_text{width:110px;height: auto;float: left;}
+.course_found_text p{text-align: center;font-family: 'Montserratwc',sans-serif;font-weight: bolder;padding: 2px 0px 2px 0px;}
+.web_development_top_header{width:100%;height: 50px;float: left;}
+.web_development_right_top_header{width:677px;height: auto;float: left;}
+.web_development_right_top_header h3{font-family: 'Open Sans', sans-serif;padding: 4px 0px 0px 0px;}
+.web_development_course_list{width:100%;height: 65px;float: left;}
+.web_development_course_list_icon_section{width:50px;height: 50px;float: left;border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;-webkit-border-radius: 4px;margin: 0 10px 0px 0px;}
+.web_development_course_list_text_section{width:100%;height: auto;float: left;padding: 2px 0px 2px 0px;}
+.web_development_course_list_text_header_section{width:100%;height: auto;float: left;}
+.web_development_course_list_text_header_section a {color: #165273;font-size: 16px;text-decoration: none;}
+.web_development_course_list_icon_section img{width:45px;height: 45px;padding: 5px 0 0 8px;}
+.web_development_course_list_text_header_calender_section{width:100%;height: auto;float: left;color: #999999;font-size:14px;}
+.web_development_course_list_icon_section i{width: 50px;height: 50px;padding: 11px 0 0 11px;color: #ffffff;}
+
+
+.col-md-9{padding: 0px;margin: 0px;}
+.col-md-10{padding: 0px;margin: 0px;}
+
+.weekend_courses_widget{width:100%;height: auto;float: left;padding: 0 0 20px 0px;}
+.professional_training_trainner_wrapper{width:100%;height: auto;float: left;padding: 0 0 15px 0px;}
+.professional_training_trainner_inner_wrapper{padding: 15px 0px;}
+.weekend_courses_header{width:100%;height: auto;float: left;}
+.weekend_courses_header h2{font-size: 20px;color:#2D6C30;font-weight: bolder;}
+.certified_courses_right_widget{width:100%;height: auto;float: left;}
+.certified_courses_right_widget h2{color: #333;font-size: 18px;font-weight: bold;    padding: 0 0 5px 0px;}
+.certified_courses_right_widget img{border-radius: 100px;width:115px;height: 115px;}
+.icon_section{width:100%;height: auto;float: left;padding: 0 0px 5px 0px;}
+.icon_left_section{width:20px;height: auto;float: left;color:#999;}
+.icon_right_section{width:300px;height: auto;float: left;}
+.icon_right_section p{color:#999;}
+.icon_inner_wrapper{width:100%;height: auto;float: left;padding: 0 0 5px 0px;}
+.certified_courses_body_section p{text-align: justify;color:#333;line-height: 20px;padding: 0 0 10px 0px;}
+.certified_courses_body_section{width:100%;height: auto;float: left;}
+
+.certified_courses_link_section{width:100%;height: auto;float: left;}
+.certified_courses_link_section a{text-decoration: none;border:1px solid #2D6C30;padding: 5px;color:#2D6C30;border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;-webkit-border-radius: 4px;transition:.5s;}
+.certified_courses_link_section a:hover{background: #2D6C30;color:#ffffff;transition:.5s;-moz-transition:.5s;-ms-transition:.5s;-o-transition:.5s;-webkit-transition:.5s;margin: 0 10px 0px 0px;}
+.padding_style{margin: 0px;padding: 0px;}
+#course_style{padding-right: 15px;}
+.certified_courses_body_widget{width:100%;height:auto;float: left;padding: 0 0 20px 0px;}
+.view_all_courses{width:100%;height: auto;float: left;}
+.view_all_inner_section{width:154px;height: auto;float: right;background:#43A047;border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;-webkit-border-radius: 4px;padding: 8px;transition:.5s;-moz-transition:.5s;-ms-transition:.5s;-o-transition:.5s;-webkit-transition:.5s;}
+.view_all_inner_section p{color:#ffffff;}
+.view_all_inner_section a{text-decoration: none;color:#ffffff;}
+.view_all_inner_section:hover{background: #2D6C30;transition:.5s;-moz-transition:.5s;-ms-transition:.5s;-o-transition:.5s;-webkit-transition:.5s;}
+
+.oracle_development_course_list_icon_section {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: #E8AF0C;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin: 0 10px 0px 0px;
+}
+
+.oracle_development_course_list_icon_section i {
+    width: 50px;
+    height: 50px;
+    padding: 11px 0 0 13px;
+    color: #ffffff;
+}
+
+.security_development_course_list_icon_section {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: #E8AF0C;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin: 0 10px 0px 0px;
+}
+
+.security_development_course_list_icon_section i {
+    width: 50px;
+    height: 50px;
+    padding: 11px 0 0 15px;
+    color: #ffffff;
+}

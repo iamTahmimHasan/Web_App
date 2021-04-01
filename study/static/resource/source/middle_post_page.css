@@ -1,0 +1,99 @@
+.middle_post_page_wrapper{
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #ffffff;
+    box-shadow: 0 0 2px #cccccc;
+    -webkit-box-shadow: 0 0 2px #cccccc;
+    -moz-box-shadow: 0 0 2px #cccccc;
+    -ms-box-shadow: 0 0 2px #cccccc;
+    -o-box-shadow: 0 0 2px #cccccc;
+    border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -moz-border-radius: 3px 3px 0px 0px;
+    -ms-border-radius: 3px 3px 0px 0px;
+    -o-border-radius: 3px 3px 0px 0px;
+    margin: 0 0 10px 0px;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+.middle_post_page_header{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.middle_post_page_header h2{
+    background: #d0ecfb;
+    padding: 10px 0px 10px 10px;
+    color: #616161;
+    border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -moz-border-radius: 3px 3px 0px 0px;
+    -ms-border-radius: 3px 3px 0px 0px;
+    -o-border-radius: 3px 3px 0px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.middle_post_page_form_section{
+    width: 80%;
+    height: auto;
+    margin: 15px 10%;
+    float: left;
+}
+
+.add_post_view_section{
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #ffffff;
+    box-shadow: 0 0 2px #cccccc;
+    -webkit-box-shadow: 0 0 2px #cccccc;
+    -moz-box-shadow: 0 0 2px #cccccc;
+    -ms-box-shadow: 0 0 2px #cccccc;
+    -o-box-shadow: 0 0 2px #cccccc;
+    border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -moz-border-radius: 3px 3px 0px 0px;
+    -ms-border-radius: 3px 3px 0px 0px;
+    -o-border-radius: 3px 3px 0px 0px;
+}
+.middle_post_button_section{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.tropic_section{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.tropic_section p{
+  line-height: 38px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #616161;
+}
+.middle_post_button_section button{
+    width: 100px;
+    height: auto;
+    float: left;
+    margin: 0 0 0 5px;
+}
+
+.button_style{
+    color: #fff;
+    background-color:#0E73A9;
+    border-color: #0E73A9;
+}
+
+#col_style{
+ font-weight:bold;background: #d0ecfb;color: #616161;    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}

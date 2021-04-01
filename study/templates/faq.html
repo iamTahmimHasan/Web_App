@@ -1,0 +1,175 @@
+{% extends 'base.html' %} 
+{% load static %}
+{% static "images" as baseUrl %}
+
+{% block content %} 
+
+
+  <style>
+
+.faq-title h4 {
+    background-color: #f5f5f5;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+}
+#up_img{
+
+	height:500px;
+	border-style: solid;
+    border-color: #0000ff;
+	border:2px solid;
+
+}
+
+#down_img{
+	height:500px;
+	border-style: solid;
+    border-color: #0000ff;
+	border:2px solid;
+
+}
+
+</style>
+
+<br />
+<br />
+
+
+
+  <div class="container">
+    <div class="col-md-12">
+      <div class="faq-title">
+        <h4>Nextadmission.com' Frequently Asked Questions</h4>
+      </div>
+    </div>
+  </div>
+  
+<br />
+
+
+  <div class="container">
+    <div class="col-md-10">
+	
+	
+	
+	
+	
+      <div class="panel-group" id="accordion">
+	  
+	 <?php /*?><div class="panel panel-default custom-class">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a href="#content-3" data-toggle="collapse" data-parent="#accordion" data-class="custom-class" class="collapsed"> 3. How can I edit my resume? </a> </h4>
+          </div>
+          <div class="panel-collapse collapse in" id="content-3" style="height: auto;">
+            <div class="panel-body">
+              <p> </p>
+              <h5>To edit your resume follow the steps:</h5>
+              <p></p>
+              <ul>
+                <li>Login to your MY BDJOBS account using your User Name and Password.</li>
+                <li>After successful login, click Edit Resume option.</li>
+                <li>Now, choose any part of your resume to edit.</li>
+                <li>After modifying information click on Submit button.</li>
+              </ul>
+            </div>
+          </div>
+        </div><?php */?>
+		
+		<?php  
+		$i=0;
+		
+		foreach($front_index as $singleview){?>
+		<?php $i++; ?>
+		
+		
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a href="<?php echo '#'.content.$i;?>" data-toggle="collapse"  data-parent="#accordion" class="collapsed"><?php echo $i;?>. <?php echo $singleview->name;?> ?</a> </h4>
+          </div>
+          <div class="panel-collapse collapse" id="<?php echo 'content'.$i;?>" style="height: 0px;">
+            <div class="panel-body">
+              <p> 
+			  
+			  <?php echo $singleview->description;?>. </p>
+            </div>
+          </div>
+        </div>
+		
+		<?php }?>
+
+
+
+    
+    
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a href="#content1" data-toggle="collapse"  data-parent="#accordion" class="collapsed">1. What is NextAdmission.com ? ?</a> </h4>
+          </div>
+          <div class="panel-collapse collapse" id="content1" style="height: 0px;">
+            <div class="panel-body">
+              <p> 
+                
+                NextAdmission.com is a student consultancy agency. It was established on the year of 2003. They recruite yearly atleast 200 students to different universities in several countries. 
+              </p>
+            </div>
+          </div>
+        </div> 
+        
+        
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"> <a href="#content2" data-toggle="collapse"  data-parent="#accordion" class="collapsed">2. Why NextAdmission.com ?</a> </h4>
+          </div>
+          <div class="panel-collapse collapse" id="content2" style="height: 0px;">
+            <div class="panel-body">
+              <p> 
+			  
+			  												AS NextAdmission.com recruit yearly 200 students so their visa success is almost 97% - 100%. In this field NextAdmission.com is a reliable agency.												. </p>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </div>
+    </div>
+    <!--- START ADSEND ADVERTISEMENT AREA-->
+    <div class="col-md-2"> 
+      <div class="banner-right-01">
+	  
+	  
+		<div id="up_img">Your Ad Here</div>        
+        
+         <br>
+        <br>
+        
+        
+       <div id="down_img">Your Ad Here</div>
+        
+        
+         </div>
+    </div>
+    <!--- END ADSEND ADVERTISEMENT AREA-->
+  </div>
+
+
+
+
+<br />
+<br />
+
+{% endblock %}

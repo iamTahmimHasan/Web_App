@@ -1,0 +1,47 @@
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-family: 'Montserratwc',sans-serif;
+}
+.web_design_training_wrapper{width:100%;height: 200px;background: #43A047;padding: 10px 0px 10px 0px;}
+.course_content_body{width:100%;height: auto;float: left;}
+.course_time_schedule{width:100%;height: auto;float: left;    font-size: 13px;}
+.course_time_schedule ul{margin: 0px;padding: 0px;color:#ffffff;}
+.course_time_schedule ul li{float: left;padding: 0 10px 0px 0px;}
+#padding_style{margin: 0px;padding: 0px;}
+.course_content_wrapper{width:100%;height: auto;float: left;}
+.course_content_header{width:100%;height: auto;float: left;}
+.course_content_header h2{color:#ffffff;padding: 20px 0px 20px 0px;}
+.course_content_body{width:100%;height: auto;float: left;padding: 45px 0px 45px 0px;}
+.course_content_body h2{color:#ffffff;font-size: 25px;font-weight: bolder;}
+.course_price_list_section{width:100%;height:auto;float: left;background:#ffffff;border-radius: 4px;box-shadow:0 0 5px #000;margin: 0 0 30px 0px;}
+.course_price_list_inner_section{width:100%;height: auto;float: left;-webkit-border-radius: 2px 2px 0px 0px;background: #357e38;-webkit-border-radius: 2px 2px 0px 0px;-webkit-border-radius: 2px 2px 0px 0px;-webkit-border-radius: 2px 2px 0px 0px;-webkit-border-radius: 2px 2px 0px 0px;}
+.course_price_list_inner_section h2{color:#ffffff;text-align: center;padding: 7px 0px 7px 0px;font-size: 16px;font-weight:normal;}
+.resourse_person_image{width:100%;height: auto;float: left;}
+.resourse_person_image img{width:100px;height: 100px;border-radius: 100px;margin: 22px 125px;}
+.resourse_person_text_section{width:100%;height: auto;float: left;padding: 0 15px 15px 15px;}
+.resourse_person_text_section h2{font-size: 16px;color:#000;text-align: center;}
+.resourse_person_text_section span{ font-size: 14px;color: #808080;text-align: center;padding: 0 0 15px 0px;display: block;}
+.resourse_person_text_section p{text-align: justify;line-height: 24px;color: #000;font-size: 14px;}
+.teacher_profile_section{width: 100%;height: auto;float: left;margin: 0px 0px 0px 0px;padding:10px 0px 0px 0px;}
+.educational_qualification{width:100%;height: auto;float: left; padding: 0 0 5px 0px;}
+.educational_qualification h2{font-size: 18px;color:#000000;font-weight:bolder;}
+.educational_details{width:100%;height: auto;float: left;}
+.educational_details ul{margin: 0px;padding: 0px;}
+.educational_details ul li{list-style: square;font-size: 14px;line-height: 24px;color: #424242;}
+.educational_qualification_wrapper{width: 100%;height: auto;float: left;padding: 0 0 20px 0px;}
+.teacher_introduction{width: 100%;height: auto;float: left;margin: 0px 0px 0px 0px;padding:20px 0px 0px 0px;}
+.teacher_introduction h2{font-size: 18px;color:#000000;font-weight:bolder;padding: 0 0 5px 0px}
+.teacher_introduction p{text-align: justify;font-size: 14px;line-height: 24px;color: #424242;}
+.teacher_related_courses{width:100%;height: 300px;float: left;border: 1px solid #e0e0e0;border-radius: 4px;-webkit-border-radius: 4px;-webkit-border-radius: 4px;-webkit-border-radius: 4px;-webkit-border-radius: 4px;box-shadow:0 0 5px #000;}
+
+.related_course_section{width:100%;height: auto;float: left;border: 1px solid #357e38;margin: 0px 0px 10px 0px;}
+.related_course_top_add{width:95%;height:162px;float: left;margin: 10px;overflow: hidden;}
+.related_course_top_add img{width:100%;height: 140px;box-shadow: 0 0 2px #000;-moz-box-shadow: 0 0 2px #000;-ms-box-shadow: 0 0 2px #000;-o-box-shadow: 0 0 2px #000;-webkit-box-shadow: 0 0 2px #000;overflow: hidden;transition:2s;}
+.related_course_top_add p{padding: 5px 0px 0px 0px;color: #000;}
+.related_course_top_add img:hover{transform:scale(1.3);-moz-transform:scale(1.3);-ms-transform:scale(1.3);-o-transform:scale(1.3);-webkit-transform:scale(1.3);overflow: hidden;box-shadow: 0 0 2px #000;-moz-box-shadow: 0 0 2px #000;-ms-box-shadow: 0 0 2px #000;-o-box-shadow: 0 0 2px #000;-webkit-box-shadow: 0 0 2px #000;transition:2s;}
+.related_course_section h2{font-size: 20px;color: #ffffff;padding:5px 0 5px 10px;background: #357e38;font-weight: bolder;}
+.teacher_left_section{width:60%;height: auto;float: left;}
+.teacher_right_section{width:33%;height: auto;float: left;margin: 0 0 0 50px;}
+.teacher_right_section img{width: 150px;height: 150px;border-radius: 150px;margin: 7px 0 6px 47px;}
+.teacher_inner_section{border:1px solid #e3e3e3;}
+.teacher_right_section P{text-align: center;font-weight: bolder;font-size: 15px;padding: 5px 0px 0px 0px;}

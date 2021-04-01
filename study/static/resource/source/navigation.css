@@ -1,0 +1,124 @@
+ul.nav, .nav>li, .nav>li>a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    z-index:100000px;
+
+}
+
+ul.nav {
+	line-height: 1;
+		z-index:100000px;
+}
+
+/* Basic layout & positioning */
+.nav, .nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 170px;
+	z-index:100000px;
+}
+
+	/* The list elements containing the links */
+	.nav li, .nav ul li {
+		padding: 0;
+		margin: 0;
+	}
+
+	/* The navigation links */
+	.nav>li>a {
+		/* Layout */
+		width: 20px;
+		padding: 10px 10px 10px 15px;
+		border-radius:50px;
+		z-index:100000px;
+
+		/* Text */
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 14px;
+		text-decoration: none;
+		color: #8e8e8e;
+		text-shadow: 0 1px 0 #fff;
+
+		/* Background & effects */
+		background: #fff;
+	}
+
+	
+	.nav>li a: hover {
+		background: #fff;
+		z-index:100000px;
+		
+	}
+
+	/* Subtle drop shadow for the last navigation link */
+	.nav>li:last-child>a {
+		border-bottom: 1px solid #cfcfcf;
+		box-shadow: inset 0px 1px 0px #fff,
+					0px 1px 1px rgba(60, 60, 60, .1);
+					z-index:100000px;
+	}
+
+	/* The dropdown list elements containing the sub-links */
+	.nav ul li {
+		position: absolute;
+		height: 0px;
+		top: -9999px;
+		z-index:100000px;
+
+		/* Creating the slide effect using transitions */
+		-webkit-transition: height .3s ease-out;
+		-ms-transition: height .3s ease-out;
+		-moz-transition: height .3s ease-out;
+		-o-transition: height .3s ease-out;
+	}
+
+	.nav li:hover li {
+		/* Expanding the list elements */
+		height: 30px;
+		position: relative;
+		top: auto;
+		z-index:100000px;
+	}
+
+	/* The dropdown menu's links */
+	.nav ul li a {
+		
+		width: 140px;
+		padding: 8px 10px 8px 25px;
+		border-top: 1px solid #e1e1e1;
+
+		/* Text */
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: normal;
+		font-size: 13px;
+		text-decoration: none;
+		border-left: 1px solid #cfcfcf;
+		border-right: 1px solid #cfcfcf;
+		background: white;
+		color: #b7b7b7;
+		z-index:100000px;
+		
+	}
+
+	/* The hover state of the dropdown menu links */
+	.nav ul li a:hover {
+		color: #787878;
+		z-index:100000px;
+	}
+
+	.nav .dropdown:hover li:first-child a {
+		box-shadow: inset 0px 1px 1px rgba(0, 0, 0, .12);
+		border-top: 1px solid #cfcfcf;
+		z-index:100000px;
+	}
+
+	.nav li:last-child ul li:last-child a {
+		border-bottom: 1px solid #cfcfcf;
+		box-shadow: 0px 1px 1px rgba(60, 60, 60, .1);
+		z-index:100000px;
+	}

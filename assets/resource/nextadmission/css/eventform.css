@@ -1,0 +1,173 @@
+/**********************
+*
+*
+* Add_Wise_Company_Details_Page
+*
+*
+*
+**********************/
+
+
+
+
+
+
+.logo {
+    background: #669999;
+    height: 100px;
+    text-align: center;
+}
+
+
+
+.organization_banner_wrapper_section {
+    width: 96.5%;
+    height: 100px;
+    float: left;
+    background: #4496EA;
+    margin: 0 0 0px 0px;
+}
+
+.organizational_latest_widget {
+    background: #01AECC;
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 5px 0px 5px 10px;
+}
+
+.organizational_latest_widget h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 38px 0px 38px 0px;
+}
+
+.titleorgin {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 33px 0px 33px 0px;
+}
+
+.logo img {
+    width: 160px;
+    height: 100px;
+    padding: 5px;
+}
+
+.organization_banner_content_section {
+    width: 100%;
+    height: auto;
+    float: left;
+    border: 0px solid #4496EA;
+    padding: 0px;
+}
+
+
+
+
+
+
+.searching_banner_section {
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #4496EA;
+    padding: 5px 10px 5px 10px;
+    margin: 0 0 10px 0px;
+}
+
+.btn_sub {
+    display: inline-block;
+    padding: 8.5px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	background-color:rgb(19, 118, 175);
+	
+}
+
+
+
+
+
+.apply_for_admission {
+    position: fixed;
+    top: 280px;
+    left: 0px;
+    z-index: 999999;
+    width: 120px;
+}
+
+
+
+
+.organizational_latest_widget ul li a {
+    font-size: 11px;
+    padding: 0%;
+    text-decoration: none;
+}
+
+.organizational_latest_widget ul li {
+    width: 33%;
+    height: auto;
+    float: left;
+}
+
+.form-control2 {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 6px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    background: #ffffff none repeat scroll 0 0;
+    border-color: #bfdcb0;
+    border: 2.5px solid #92dcbd;
+}
+#submit_btn{
+width:410px !important;
+}
+#queryform{
+	background-color:rgb(237, 253, 246);
+}
+.modal-lg{
+	_width:500px !important;
+	}
+.moble_name span {
+    font-size: 25px;
+    left: -2px;
+    position: absolute;
+    top: 4px;
+}
+
+.form-horizontal .form-group {
+
+			margin-left: -15px;
+
+		} 

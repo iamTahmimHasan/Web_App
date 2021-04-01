@@ -1,0 +1,41 @@
+.lt-ie9 .dropmenu {
+background:#2a2a2a;
+}
+.lt-ie9 .dropmenu > li {
+height: 24px;
+}
+
+.lt-ie8 .dropmenu li a  {
+text-indent:12px;
+line-height: 1.4;
+vertical-align:baseline;
+}
+.lt-ie8 .drop_icon {
+top: 8px;
+left: 5px;
+}
+
+.lt-ie8 .drop_icon.search_icon {
+top: 10px;
+left: 13px;
+}
+
+.lt-ie8 #searchbox .search_input  {
+margin-top:0;
+}
+.lt-ie8 .dropmenu li .full_drop {
+padding-left: 0;
+text-indent:7px;
+}
+
+.lt-ie8 #sign-up {
+left: -82px;
+}
+.lt-ie8 #signup_footer {
+width: 150px;
+}
+.lt-ie8 #signup_footer a {
+margin:0;
+text-indent: 3px;
+float:left;
+}

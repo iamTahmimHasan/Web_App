@@ -1,0 +1,29 @@
+
+/**********************
+*
+*
+* Organization Web Vedio Page
+*
+*
+*
+**********************/
+
+
+
+.addwise_company_details_page{width: 100%;height: auto;float: left;padding:30px 0px 30px 0px;}
+.organization_banner_content_section{width: 100%;height: auto;float: left;border: 1px solid #4496EA;padding: 10px;}
+.thumbnail1 {
+    display: block;
+    padding: 2px;
+    margin: 0px 0px 0px 0px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+
+

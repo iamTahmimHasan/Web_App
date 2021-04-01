@@ -1,0 +1,76 @@
+.resume_wrapper_section{
+   width: 100%;
+   height: auto;
+   float: left;
+   background: #ffffff;
+   box-shadow: 0 0 2px #cccccc;
+   -webkit-box-shadow: 0 0 2px #cccccc;
+   -moz-box-shadow: 0 0 2px #cccccc;
+   -ms-box-shadow: 0 0 2px #cccccc;
+   -o-box-shadow: 0 0 2px #cccccc;
+   border-radius: 3px 3px 0px 0px;
+   -webkit-border-radius: 3px 3px 0px 0px;
+   -moz-border-radius: 3px 3px 0px 0px;
+   -ms-border-radius: 3px 3px 0px 0px;
+   -o-border-radius: 3px 3px 0px 0px;
+
+}
+
+.resume_header_section{
+   background: #d0ecfb;
+   padding: 5px 10px 5px 10px;
+   color: #616161; 
+   border-radius: 3px 3px 0px 0px;
+   -webkit-border-radius: 3px 3px 0px 0px;
+   -moz-border-radius: 3px 3px 0px 0px;
+   -ms-border-radius: 3px 3px 0px 0px;
+   -o-border-radius: 3px 3px 0px 0px;
+   font-size: 14px;
+   font-weight: 600;
+   font-family: 'Open Sans', sans-serif;
+
+}
+.resume_header_section a{color: #616161;}
+
+.download_resume_section{
+   padding: 10px;
+   width: 100%;
+   height: auto;
+   float: left;
+}
+
+.resume_header_section table tr{}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.personal_details_section{width:100%;height: auto;float: left;}
+.personal_details_section h2{
+   background:#E6E6E6;
+   padding: 5px 10px 5px 10px;
+   color: #616161; 
+   font-size: 15px;
+   font-weight: 600;
+   font-family: 'Open Sans', sans-serif;
+
+}
+.personal_details_body_section{
+   padding: 10px;
+   width: 100%;
+   height: auto;
+   float: left;
+}
+.resume_training_wrapper_section{
+   padding: 10px;
+   width: 100%;
+   height: auto;
+   float: left;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+}

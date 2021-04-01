@@ -1,0 +1,57 @@
+﻿/********************RESET5*****************************************/
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+
+body {
+	background: url(../img/back.jpg);
+	font: 13px helvetica, arial;
+}
+p{
+	line-height: 25px;
+	font-size: 12px;
+}
+#container {
+	width: 980px;
+	margin: 2em auto;
+
+}
+#main h1 {
+	font: 32px/1.6 GandhiSansRegular;
+	color:rgb(34, 34, 33);
+	text-shadow: -1px 1px 0px rgba(203, 205, 205, .4);
+	text-align:center;
+	letter-spacing:2px;
+	margin: 10px 0 10px -20px;
+}
+
+#main h1 span {
+	display: block;
+	font:200 italic 13px georgia, 'Times New Roman';
+	color: rgb(30,34, 32);
+	letter-spacing: 2px;
+}
+
+.text-left{
+	text-align: left !important;
+}
+.text-center{
+	text-align: center !important;
+}
+.text-right{
+	text-align: right !important;
+}

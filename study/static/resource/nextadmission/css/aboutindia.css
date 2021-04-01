@@ -1,0 +1,54 @@
+
+/**********************************************
+*
+*
+*
+* All Indian Universities
+*
+*
+*
+***********************************************/
+
+@font-face {
+    font-family: 'SolaimanLipi'; /*a name to be used later*/
+    src: url('../fonts/SolaimanLipi.ttf'); /*URL to font*/
+}
+
+.indian_university_heading_section{width:100%;height: auto;float: left;padding: 0 0 2px 0px;}
+.indian_university_heading_section h2{font-size: 40px;font-family: 'SolaimanLipi';color: #017EC9;text-shadow: 0 2px 1px #B26700;text-align:center;}
+.indian_university_heading_section ‍h2 a{color:#00B233;text-decoration: none;}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #d9d9d9;color:#f0000000;
+}
+
+.table-bordered {
+    border: 1px solid #b3b3b3;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #b3b3b3;
+}
+.table-bordered>tbody>tr>td:last-child, .table-bordered>tbody>tr>th:last-child, .table-bordered>tfoot>tr>td:last-child, .table-bordered>tfoot>tr>th:last-child, .table-bordered>thead>tr>td:last-child, .table-bordered>thead>tr>th:last-child {
+    border-left: 0px solid #b3b3b3;
+}
+
+.sorting_1 a{color:#000000;}
+.indian_quick_link_widget{width: 300px;height: auto;float:right;background: #047EC7;padding:10px;box-shadow: 0 1px 2px #B26700;-moz-box-shadow: 0 1px 2px #B26700;-ms-box-shadow: 0 1px 2px #B26700;-o-box-shadow: 0 1px 2px #B26700;-webkit-box-shadow: 0 1px 2px #B26700;}
+.indian_quick_link_widget a{color: #ffffff;text-decoration: none;font-size: 11px;}
+.indian_quick_link_left_widget{width:50%;height: auto;float: left;}
+.indian_quick_link_right_widget{width:50%;height: auto;float: left;}
+.indian_quick_link_left_widget a{width:100%;height: auto;float: left;}
+.indian_quick_link_left_widget a:hover{color:#FF9300;}
+.indian_quick_link_right_widget a{width:100%;height: auto;float: left;}
+.indian_quick_link_right_widget a:hover{color:#FF9300;}
+
+.comment_wrapper_section{width:100%;height:auto;float: left;background:#ffffff;box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);-moz-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);-ms-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);-o-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);-webkit-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);margin: 7px 0px 0px 0px;padding: 10px;}
+.comment_box_widget{width: 100%;height: auto;float: left;border:1px solid #dddddd;border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;-webkit-border-radius: 4px;padding: 0px;margin: 0px 0px 10px 0px;}
+.comment_box_section{width: 95%;height: auto;float: left;margin:0 20px 10px 20px;border: 1px solid #dddddd;padding: 15px;}
+.comment_header{background: #ededed;padding: 5px 0px 5px 10px;}
+.comment_body{padding: 10px;text-align: justify;}
+.comment_system_wrapper{padding: 0 10px 0px 10px;}
+#tution_fees{text-align: center;}
+.col-sm-12{margin: 0px;padding: 0px;}
+
+table.dataTable {clear: both;margin-top: 0px !important;margin-bottom: 6px !important;max-width: none !important;}
