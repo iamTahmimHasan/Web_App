@@ -66,7 +66,37 @@ def home(request):
         bachelor_certificate_and_transcript = request.POST['bachelor_certificate_and_transcript']
         hsc_certificate_and_transcript = request.POST['hsc_certificate_and_transcript']
         ssc_certificate_and_transcript  = request.POST['ssc_certificate_and_transcript ']
-        
+
+        ins = Admission(
+            sur_name = sur_name, given_name = given_name, gender=gender, 
+            father_name=father_name, mother_name=mother_name, email=email, 
+            passport_no=passport_no, mobile_number=mobile_number, 
+            date_of_birth=date_of_birth, nid_no=nid_no, religion=religion, 
+            marital_status=marital_status, spouse_mobile_no=spouse_mobile_no, 
+            interested_country= interested_country, interested_institute= interested_institute, 
+            interested_program=interested_program, present_address=present_address, 
+            permanent_address=permanent_address, father_occupation=father_occupation, 
+            father_designation=father_designation, father_mobile_no=father_mobile_no,
+            organization_name=organization_name, organization_address = organization_address,
+            reference_name = reference_name, reference_mobile_no= reference_mobile_no, 
+            referecnce_address= referecnce_address, ssc_degree=ssc_degree, 
+            ssc_institute=ssc_institute, ssc_group =ssc_group, ssc_result = ssc_result, 
+            ssc_year =ssc_year, hsc_degree = hsc_degree, hsc_institute=hsc_institute,
+            hsc_group=hsc_group, hsc_year= hsc_year, hsc_result =hsc_result, bacholor_degree =bacholor_degree,
+            bacholor_institute=bacholor_institute, bacholor_year =bacholor_year, bacholor_result=bacholor_result,
+            masters_degree=masters_degree, masters_institute=masters_institute, masters_group=masters_group, 
+            masters_result =masters_result, masters_year= masters_year, language_skills =language_skills,
+            language_skills_score=language_skills_score, language_skills_score_test_date= language_skills_score_test_date,
+            information_media=information_media, phone_contact_by = phone_contact_by, 
+            counselor_Name=counselor_Name, visa_processed_by=visa_processed_by,
+            digital_sign=digital_sign, photo_and_signeture = photo_and_signeture,
+            nid_and_passport=nid_and_passport, master_certificate_and_transcript=master_certificate_and_transcript,
+            hsc_certificate_and_transcript=hsc_certificate_and_transcript,
+            ssc_certificate_and_transcript =ssc_certificate_and_transcript
+            
+            )
+        ins = save()
+        print ('From Submit Successfull')
 
 
 
