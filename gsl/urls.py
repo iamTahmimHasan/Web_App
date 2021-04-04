@@ -18,6 +18,7 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+
 urlpatterns = [
     
     path('', include('frontend.urls')),
@@ -26,8 +27,11 @@ urlpatterns = [
     path('study/', include('study.urls')),
     path('employment/', include('employment.urls')),
     #path('form/', include('form.urls')),
+
     path('admin/', admin.site.urls),
 ]
+
+
 
 urlpatterns = urlpatterns + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

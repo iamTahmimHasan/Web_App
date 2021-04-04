@@ -89,6 +89,8 @@ TEMPLATES = [
     },
 ]
 
+
+
 WSGI_APPLICATION = 'gsl.wsgi.application'
 
 
