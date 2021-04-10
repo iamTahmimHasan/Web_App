@@ -1,103 +1,346 @@
+{% load static %}
+{% static "images" as baseUrl %}
+
 <!DOCTYPE html>
-<html>
-    <head>
+<!-- Created By CodingNepal -->
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COMING SOON ....</title>
+    <title>Global Star Ltd. - Study Visa | Tour Visa | Work Visa - All In One Solution </title>
+    <link rel="stylesheet" href="{% static 'home/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="shortcut icon" href="{% static 'home/images/img/companylogo/gsl_fabicon.ico' %}" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
 </head>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bgimg {
-  background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
-
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
-
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-  font-size: 20px;
-}
-
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
 <body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#"><span>Global Star </span>Ltd.</a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="https://travel.globalstar.com.bd/" class="menu-btn">Taravel Packages</a></li>
+                <li><a href="https://travel.globalstar.com.bd/" class="menu-btn">Tickets</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
 
-<div class="bgimg">
-  <div class="topleft">
-      <br>
-      <img width="87" height="60" src="https://globalstar.com.bd/wp-content/uploads/2021/02/cropped-gsl-180.png" class="custom-logo" alt="Global Star Ltd.">
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="max-width">
+          <div class="row">
+            <div class="home-content">
+                <div class="text-1">We, Are</div>
+                <div class="text-2">Global Star Ltd.</div>
+                <div class="text-3">And We Help <span class="typing"></span></div>
+                <a style="margin-right:5px;" href="/study">Study </a>
+                <a style="margin-right:5px;" href="/employment">Employment</a>
+                <a style="margin-right:5px;" href="https://travel.globalstar.com.bd/">Travel</a>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About us</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img style="height: 10%;"  src="{% static 'home/images/img/companylogo/GSL-Logo.png' %}" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">We are <span class="typing-2"></span> Service Provider</div>
+                    <p>Global Star Ltd is a Gov't authorized Manpower Recruiting, Air Ticket and Education consulting Agency that help workers to find exact employers, students to find foreign Universities and Air Ticket with Competitive price.</p>
+                    <a href="#contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Our services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-briefcase"></i>
+                        <div class="text">Employment Service</div>
+                        <p>We are engaged in Recruitment & Services Supply for Oil & Gas, Heavy Engineering, Marine, Construction.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-plane"></i>
+                        <div class="text">Travel Service</div>
+                        <p>We are engaged in travel. we are Expertise in Visa / Emigration & Documentation.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-user-graduate"></i>
+                        <div class="text">Study Service</div>
+                        <p>We help students to find an education institution, Find Visa, and Admission Confirmation.</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
     
-  </div>
-  <div class="middle">
-    <h1>Global Star Limited</h1>
-    <h3>COMING SOON...</h3>
-    <hr>
-    <p id="demo" style="font-size:30px"></p>
-  </div>
-  <div class="bottomleft">
-    <p>2001-2021 &copy Global Star Ltd.  | All Right Reserved.</p>
-  </div>
-</div>
 
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Apr 10, 2021 15:37:25").getTime();
+    
 
-// Update the count down every 1 second
-var countdownfunction = setInterval(function() {
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <img style="height: 100%; width: 100%;" src="{% static 'home/images/web_ban.webp' %}">
+            
+        </div>
+    </section>
 
-  // Get todays date and time
-  var now = new Date().getTime();
-  
-  // Find the distance between now an the count down date
-  var distance = countDownDate - now;
-  
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(countdownfunction);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
+    
 
+    <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Study Abroad</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-1.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-2.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-3.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-4.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-5.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills1">
+        <div class="max-width">
+            <img style="height: 100%; width: 100%;" src="{% static 'home/images/web_ban.webp' %}">
+            
+        </div>
+    </section>
+
+    
+
+    <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Explore World</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-1.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-2.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-3.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-4.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-5.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills2">
+        <div class="max-width">
+            <img style="height: 100%; width: 100%;" src="{% static 'home/images/web_ban.webp' %}">
+            
+        </div>
+    </section>
+
+    
+
+    <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Employment</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-1.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-2.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-3.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-4.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="{% static 'home/images/profile-5.jpeg' %}" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact us</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Walk in to our office for free study abroad counselling, application submissions, visa assistance, pre-departure sessions and much more.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fa fa-mobile"></i>
+                            <div class="info">
+                                <div class="head"> <a href="tel:+8809666700111"> +880-9666-700111</a></div>
+                                <div class="sub-title">+880-1708-524200-03</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Center Point Concord Tower,(10-D), Farmgate, Dhaka 1215, Bangladesh</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title"> <a href="mailto:info@globalstar.com.bd">info@globalstar.com.bd</a> </div>
+                            </div>
+                        </div>
+                        <!-- test 
+                         <div class="row">
+                            <ul style=" list-style: none; display: inline-block;" >
+                                <li><a style="margin-right:5px;" href=""><i class="fab fa-facebook"></i></a></li>
+                                <li><a style="margin-right:5px;" href=""><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a style="margin-right:5px;" href=""><i  class="fab fa-linkedin"></i></a></li>
+                                <li><a style="margin-right:5px;" href=""><i class="fab fa-youtube-square"></i></i></a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Leave us a Message</div>
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" class="fullname" placeholder="Name">
+                            </div>
+                            <div class="field email">
+                                <input type="text" class="email-input" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" class="subject" placeholder="Subject">
+                        </div>
+                        <div class="field textarea">
+                            <textarea class="message" cols="30" rows="10" placeholder="Message.."></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button class="send-msg" type="submit" name="send">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="https://www.github.com/iamtahmimhasan">Tahmim Hasan Sany</a> | <span class="far fa-copyright"></span>  2001- 2021 © Global Star Ltd.  | All Right Reserved.</span>
+    </footer>
+
+    <script src="{% static 'home/script.js' %}"></script>
 </body>
 </html>

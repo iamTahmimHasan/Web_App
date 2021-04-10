@@ -1,0 +1,16 @@
+1 First Name		2. Last Name
+3. Father's Name, occupation, Phone
+4. Mother's Name, occupation, Phone
+5. Gender			6. Religion
+7. Mobile			8. Email
+9. NID (If any)		10. Passport (If any)
+11. Present Address		12. Permanent Address
+13. Reference 01 (Name, Email, Mobile, Country, Address)
+14. Reference 02 (Name, Email, Mobile, Country, Address)
+15. Academic Qualification
+16. Other Courses (Course name, Result)
+17. Interested Country	18. Interested Institute
+19. Interested Program
+20. Upload Certificates	21. Upload Marksheets
+22. Upload Photo		23. Upload Signature
+24. How did you learn about us?
