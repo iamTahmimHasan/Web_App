@@ -122,41 +122,16 @@
         <div class="max-width">
             <h2 class="title">Study Abroad</h2>
             <div class="carousel owl-carousel">
+                {% for study in studys %}
                 <div class="card">
                     <div class="box">
-                        <img src="{% static 'home/images/profile-1.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
+                        <img src="{{study.country_image.url}}" alt="">
+                        <div class="text">{{study.country_name}}</div>
+                        <p>{{study.country_short_description}}</p>
+                    </div> 
                 </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="{% static 'home/images/profile-2.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="{% static 'home/images/profile-3.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="{% static 'home/images/profile-4.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="{% static 'home/images/profile-5.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
+                {% endfor %}
+                
             </div>
         </div>
     </section>
@@ -176,41 +151,15 @@
         <div class="max-width">
             <h2 class="title">Explore World</h2>
             <div class="carousel owl-carousel">
+                {% for travel in travels %}
                 <div class="card">
                     <div class="box">
-                        <img src="{% static 'home/images/profile-1.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
+                        <img src="{{travel.country_image.url}}" alt="">
+                        <div class="text">{{travel.country_name}}</div>
+                        <p>{{travel.country_short_description}}</p>
+                    </div> 
                 </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="{% static 'home/images/profile-2.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="{% static 'home/images/profile-3.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="{% static 'home/images/profile-4.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="{% static 'home/images/profile-5.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </section>
@@ -230,41 +179,15 @@
         <div class="max-width">
             <h2 class="title">Employment</h2>
             <div class="carousel owl-carousel">
+                {% for employment in employments %}
                 <div class="card">
                     <div class="box">
-                        <img src="{% static 'home/images/profile-1.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
+                        <img src="{{employment.country_image.url}}" alt="">
+                        <div class="text">{{employment.country_name}}</div>
+                        <p>{{employment.country_short_description}}</p>
+                    </div> 
                 </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="{% static 'home/images/profile-2.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="{% static 'home/images/profile-3.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="{% static 'home/images/profile-4.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="{% static 'home/images/profile-5.jpeg' %}" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </section>

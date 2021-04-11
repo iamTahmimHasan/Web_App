@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'hrm',
     'event',
     'dal_queryset_sequence',
+    'django_countries',
 
 ]
 
